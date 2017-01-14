@@ -1,0 +1,191 @@
+[
+    {
+        "nr": 1,
+        "firstname": "Balaj",
+        "lastname": "Andrei",
+        "gender": "male",
+        "studentNumber": "21021557"
+    },
+    {
+        "nr": 2,
+        "firstname": "Burligica",
+        "lastname": "Ciprian",
+        "gender": "male",
+        "studentNumber": "21021574"
+    },
+    {
+        "nr": 3,
+        "firstname": "Carafa",
+        "lastname": "Florina",
+        "gender": "female",
+        "studentNumber": "21021577"
+    },
+    {
+        "nr": 4,
+        "firstname": "Ciunt",
+        "lastname": "Alexandru",
+        "gender": "male",
+        "studentNumber": "21021592"
+    },
+    {
+        "nr": 5,
+        "firstname": "Csosz",
+        "lastname": "Emoke",
+        "gender": "female",
+        "studentNumber": "21021599"
+    },
+    {
+        "nr": 6,
+        "firstname": "Danci",
+        "lastname": "Ionut",
+        "gender": "male",
+        "studentNumber": "21021603"
+    },
+    {
+        "nr": 7,
+        "firstname": "Dragomir",
+        "lastname": "Angelo",
+        "gender": "male",
+        "studentNumber": "21021617"
+    },
+    {
+        "nr": 8,
+        "firstname": "Flutur",
+        "lastname": "George",
+        "gender": "male",
+        "studentNumber": "21021627"
+    },
+    {
+        "nr": 9,
+        "firstname": "Groza",
+        "lastname": "Raul",
+        "gender": "male",
+        "studentNumber": "21021636"
+    },
+    {
+        "nr": 10,
+        "firstname": "Kerekes",
+        "lastname": "Emeric",
+        "gender": "male",
+        "studentNumber": "21021648"
+    },
+    {
+        "nr": 11,
+        "firstname": "Laczko",
+        "lastname": "Albert",
+        "gender": "male",
+        "studentNumber": "21021652"
+    },
+    {
+        "nr": 12,
+        "firstname": "Lar",
+        "lastname": "Eleonor",
+        "gender": "male",
+        "studentNumber": "21021653"
+    },
+    {
+        "nr": 13,
+        "firstname": "Lazar",
+        "lastname": "Bogdan",
+        "gender": "male",
+        "studentNumber": "21021654"
+    },
+    {
+        "nr": 14,
+        "firstname": "Lengyel",
+        "lastname": "Karoly",
+        "gender": "male",
+        "studentNumber": "21021655"
+    },
+    {
+        "nr": 15,
+        "firstname": "Litu",
+        "lastname": "Maria",
+        "gender": "female",
+        "studentNumber": "21021657"
+    },
+    {
+        "nr": 16,
+        "firstname": "Movileanu",
+        "lastname": "Bogdan",
+        "gender": "male",
+        "studentNumber": "21021680"
+    },
+    {
+        "nr": 17,
+        "firstname": "Nagy",
+        "lastname": "Levente",
+        "gender": "male",
+        "studentNumber": "21021687"
+    },
+    {
+        "nr": 18,
+        "firstname": "Oarga",
+        "lastname": "Ioan",
+        "gender": "male",
+        "studentNumber": "21021695"
+    },
+    {
+        "nr": 19,
+        "firstname": "Paul",
+        "lastname": "Daniel",
+        "gender": "male",
+        "studentNumber": "21021701"
+    },
+    {
+        "nr": 20,
+        "firstname": "Popa",
+        "lastname": "Octavian",
+        "gender": "male",
+        "studentNumber": "21021713"
+    },
+    {
+        "nr": 21,
+        "firstname": "Popescu",
+        "lastname": "Sorina",
+        "gender": "female",
+        "studentNumber": "21021716"
+    },
+    {
+        "nr": 22,
+        "firstname": "Pricop",
+        "lastname": "Stefan",
+        "gender": "male",
+        "studentNumber": "21021489"
+    },
+    {
+        "nr": 23,
+        "firstname": "Puscas",
+        "lastname": "Mihai",
+        "gender": "male",
+        "studentNumber": "21021720"
+    },
+    {
+        "nr": 24,
+        "firstname": "Serban",
+        "lastname": "Ioana",
+        "gender": "female",
+        "studentNumber": "21021737"
+    },
+    {
+        "nr": 25,
+        "firstname": "Teleaba",
+        "lastname": "Adrian",
+        "gender": "male",
+        "studentNumber": "21021754"
+    },
+    {
+        "nr": 26,
+        "firstname": "Todor",
+        "lastname": "Eduard",
+        "gender": "male",
+        "studentNumber": "21021757"
+    },
+    {
+        "nr": 27,
+        "firstname": "Ulici",
+        "lastname": "Ioana",
+        "gender": "female",
+        "studentNumber": "21021764"
+    }
+]
