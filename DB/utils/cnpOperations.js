@@ -1,6 +1,69 @@
 const fs = require('fs');
 const counties = require('./counties.json');
 
+function generateCnp(gender, fullYear) {
+  if (gender !== "male" && gender !== "female") {
+    console.error("For the god sake enter a valid gender...");
+    return;
+  }
+
+  if (fullYear < 1990 && fullYear > 2005) {
+    console.error("Please live in the present..");
+  }
+
+  let thirtyDays = [4, 6, 9, 11];
+  let thirtyOneDays = [1, 3, 5, 7, 8, 10, 12];
+
+  let genderIndex = 0;
+  let before2K = (fullYear.toString().slice(2,4) == 19) ? true : false;
+  let year = fullYear.toString().slice(2,4);
+  let yearBefore = year - 1;
+  let yearAfter = year + 1;
+
+  if (year === "00" ) {
+    yearBefore = "99";
+    yearAfter = "01";
+  } else if (year === 99 ) {
+    yearAfter = "00";
+  }
+
+  let randomYear = Math.random();
+  let randomMonth = Math.round(Math.random() * 11 + 1);
+  let randomDay = 0;
+
+  if (thirtyDays.indexOf(randomMonth) > -1) {
+    randomDay = Math.round(Math.random() * 30);
+  } else if (thirtyOneDays.indexOf(randomMonth) > -1) {
+    randomDay = Math.round(Math.random() * 31);
+  } else {
+    randomDay = Math.round(Math.random() * 28);
+  }
+
+  if (randomDay < 10) randomDay = "0" + randomDay.toString();
+  if (randomMonth < 10) randomMonth = "0" + randomMonth.toString();
+
+  randomYear = randomYear <= 0.05 ? yearAfter : (randomYear <= 0.20 ? yearBefore : year);
+  if (randomYear >= 100) randomYear = randomYear.toString().slice(1, 3);
+
+  if (randomYear > 90) {
+    genderIndex = gender === "male" ? 1 : 2;
+  } else {
+    genderIndex = gender === "male" ? 5 : 6;
+  }
+
+  return `${genderIndex}${randomYear}${randomMonth}${randomDay}`;
+}
+
+let years = {};
+for (i=0; i<1000;i++) {
+  let year = generateCnp("female", 2000);
+  // if (!years[year]) years[year] = 0;
+  // years[year]++;
+  console.log(year);
+}
+
+console.log(years);
+
 function extractFromCnp(cnp) {
   let extracted = {};
   let genderIndex = parseInt(cnp.slice(0,1));
@@ -78,8 +141,6 @@ function validateCnpContent(cnp) {
 
   return true;
 }
-
-validateCnpContent("1940128261986");
 
 module.exports = {
   extractFromCnp,
