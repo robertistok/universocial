@@ -2,8 +2,7 @@ const Xray = require('x-ray');
 const x = Xray();
 
 const fs = require('fs');
-
-
+const counties = require('./counties.json');
 
 // let autEng30311 = "<html><body><table border=1> <tr> <td>male</td> <td>Badea M. Iulian Mirel</td> <td>21021794</td> </tr> <tr> <td>male</td> <td>Berbecaru E. Andrei</td> <td>21021803</td> </tr> <tr> <td>male</td> <td>Bodea D. Ciprian Gheorghe</td> <td>21021810</td> </tr> <tr> <td>male</td> <td>Borca P. Paul Gavril</td> <td>21021817</td> </tr> <tr> <td>male</td> <td>Campean C. Tudor</td> <td>21021827</td> </tr> <tr> <td>male</td> <td>Chiorean S. Raul Mihai</td> <td>21021832</td> </tr> <tr> <td>male</td> <td>Ciubancan D. Mihai</td> <td>21021839</td> </tr> <tr> <td>male</td> <td>Coroian C. Calin Andrei</td> <td>21021844</td> </tr> <tr> <td>male</td> <td>Dragomir M. Marius</td> <td>21021858</td> </tr> <tr> <td>male</td> <td>Dreptate A. Alexandru Iulian</td> <td>21021859</td> </tr> <tr> <td>male</td> <td>Girda C. Bogdan Raul</td> <td>21021876</td> </tr> <tr> <td>male</td> <td>Hangea R. Cristian Radu</td> <td>21021884</td> </tr> <tr> <td>male</td> <td>Kelemen S. Sandor</td> <td>21021894</td> </tr> <tr> <td>male</td> <td>Mada M. Felix Marius</td> <td>21021906</td> </tr> <tr> <td>male</td> <td>Marcus S. Bogdan Sorin</td> <td>21021911</td> </tr> <tr> <td>female</td> <td>Mihut D. Larisa Diana</td> <td>21021919</td> </tr> <tr> <td>male</td> <td>Moldovan S. Ovidiu</td> <td>21021921</td> </tr> <tr> <td>male</td> <td>Molnar F. Szilard</td> <td>21021922</td> </tr> <tr> <td>male</td> <td>Munte L. Vlad Liviu</td> <td>21021924</td> </tr> <tr> <td>male</td> <td>Muresan V. Beniamin Vasile</td> <td>21021928</td> </tr> <tr> <td>female</td> <td>Nenu A. Maria</td> <td>21021935</td> </tr> <tr> <td>female</td> <td>Ordogh C. Noemi</td> <td>21021942</td> </tr> <tr> <td>male</td> <td>Otelea C. Darius</td> <td>21021945</td> </tr> <tr> <td>male</td> <td>Petrenciuc D. Vlad Adrian</td> <td>21021951</td> </tr> <tr> <td>female</td> <td>Racila A. Diana</td> <td>21021963</td> </tr> <tr> <td>male</td> <td>Selicean C. Orlando</td> <td>21021978</td> </tr> <tr> <td>male</td> <td>Todoran S. Alex Sorin</td> <td>21021999</td> </tr> <tr> <td>male</td> <td>Vikk T. Darius Daniel</td> <td>21022015</td> </tr> <tr> <td>male</td> <td>Voican R. Andrei Mihai</td> <td>21022021</td> </tr> <tr> <td>male</td> <td>Voicu P. Alin Paul</td> <td>21022022</td> </tr> </table> </body></html>";
 // let autEng30312 = "<table> <tr> <td>male</td> <td>Bonta M. Sergiu Andrei</td> <td>21021815</td> </tr> <tr> <td>male</td> <td>Bugnariu A. Andrei</td> <td>21021822</td> </tr> <tr> <td>male</td> <td>Buricea V. Horatiu</td> <td>21021824</td> </tr> <tr> <td>female</td> <td>Ciocirlan G. Gabriela Maria</td> <td>21021836</td> </tr> <tr> <td>male</td> <td>Ciorobitca E. Eduard</td> <td>21021838</td> </tr> <tr> <td>female</td> <td>Covrig M. Bianca Ramona</td> <td>21021845</td> </tr> <tr> <td>male</td> <td>Cozorici F. Ingrid Andreea</td> <td>21021847</td> </tr> <tr> <td>male</td> <td>Czira M. Bence</td> <td>21021851</td> </tr> <tr> <td>male</td> <td>Daczo - Cadar L. Amalia</td> <td>21021852</td> </tr> <tr> <td>male</td> <td>Dan L. Dragos Calin</td> <td>21021853</td> </tr> <tr> <td>male</td> <td>Duduiala - Barsan C. Andrei</td> <td>21021860</td> </tr> <tr> <td>male</td> <td>Dumitru O. Emanuel</td> <td>21021862</td> </tr> <tr> <td>male</td> <td>Fusa V. George Catalin</td> <td>21021869</td> </tr> <tr> <td>male</td> <td>Hossu O. Flaviu Dumitru</td> <td>21021887</td> </tr> <tr> <td>female</td> <td>Jitariu C. Ioana</td> <td>21021893</td> </tr> <tr> <td>female</td> <td>Kozma Z. Elisabeta</td> <td>21021896</td> </tr> <tr> <td>male</td> <td>Lupascu G. Ciprian Florin</td> <td>21021904</td> </tr> <tr> <td>male</td> <td>Obogeanu L. Pavel Vlad</td> <td>21021937</td> </tr> <tr> <td>male</td> <td>Oros M. Horea Ciprian</td> <td>21021943</td> </tr> <tr> <td>male</td> <td>Pitorac C. Vlad Petru</td> <td>21021952</td> </tr> <tr> <td>male</td> <td>Pocol R. Vlad</td> <td>21021953</td> </tr> <tr> <td>male</td> <td>Pop A. Sandor</td> <td>21021955</td> </tr> <tr> <td>female</td> <td>Popovici V. Alexandra</td> <td>21021960</td> </tr> <tr> <td>male</td> <td>Rancea M. Alexandru Miron</td> <td>21021964</td> </tr> <tr> <td>male</td> <td>Tamas E. Emil Cosmin</td> <td>21021993</td> </tr> <tr> <td>female</td> <td>Tintas V. Iulia Maria</td> <td>21021997</td> </tr> <tr> <td>male</td> <td>Tyekar A. Dan Adrian</td> <td>21022005</td> </tr> <tr> <td>male</td> <td>Vana I. Ciprian Vlad</td> <td>21022011</td> </tr> <tr> <td>male</td> <td>Veres A. Andrei Adrian</td> <td>21022012</td> </tr> <tr> <td>male</td> <td>Vultur V. Bogdan - Ionut</td> <td>21022024</td> </tr></table>";
@@ -16,20 +15,34 @@ const fs = require('fs');
 
 // regex = (<td>)\d{1,2}(</td>)
 
-x(autEng30311, 'table', ['tr'])((err, content) => {
-  let data = content;
-  let students = data
-                  .map(data => data.trim())
-                  .map((data, index) => {
-                    let splitData = data.split(' ');
-                    return {
-                      nr: index + 1,
-                      firstname: splitData[1],
-                      lastname: splitData[3],
-                      gender: splitData[0],
-                      studentNumber: splitData.pop()
-                    }
-                  });
-  console.log(typeof students);
-  fs.writeFile('studentsParsed/autEng30311.json', JSON.stringify(students, null, 4), (err) => {if(err) throw err});
-});
+// x(autEng30311, 'table', ['tr'])((err, content) => {
+//   let data = content;
+//   let students = data
+//                   .map(data => data.trim())
+//                   .map((data, index) => {
+//                     let splitData = data.split(' ');
+//                     return {
+//                       nr: index + 1,
+//                       firstname: splitData[1],
+//                       lastname: splitData[3],
+//                       gender: splitData[0],
+//                       studentNumber: splitData.pop()
+//                     }
+//                   });
+//   console.log(typeof students);
+//   fs.writeFile('studentsParsed/autEng30311.json', JSON.stringify(students, null, 4), (err) => {if(err) throw err});
+// });
+
+function generateMainCity() {
+  let newCounties = counties.map((data) => {
+    code = data.code;
+    county = data.name;
+    mainCity = data.name;
+    return {
+      code, county, mainCity
+    }
+  })
+  fs.writeFile('newCounties.json', JSON.stringify(newCounties, null, 4), (err) => {if(err) throw err})
+};
+
+generateMainCity();
