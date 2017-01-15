@@ -12,22 +12,11 @@ const StudentSchema = new Schema({
     lastname:  String,
     gender: String,
     phone: Number,
-    fathersFirstname: String,
-    mothersLastname: String,
     dateOfBirth: Date,
-    countyOfBirth: String,
-    placeOfBirth: String,
+    countyOfOrigin: String
     identityCard: {
       type: String,
       series: Number,
-      emittedIn: String,
-      emittedBy: String,
-      emittedOn: Date
-    },
-    domicile: {
-      county: String,
-      place: String,
-      address: String
     },
     other: {
       militaryStatus: String,
