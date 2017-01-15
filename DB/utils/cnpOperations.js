@@ -1,5 +1,5 @@
 const fs = require('fs');
-const counties = require('./counties.json');
+const counties = require('./newCounties.json');
 
 function generateCnp(gender, fullYear) {
   if (gender !== "male" && gender !== "female") {
@@ -13,8 +13,8 @@ function generateCnp(gender, fullYear) {
 
   let thirtyDays = [4, 6, 9, 11];
   let thirtyOneDays = [1, 3, 5, 7, 8, 10, 12];
-
   let genderIndex = 0;
+
   let before2K = (fullYear.toString().slice(2,4) == 19) ? true : false;
   let year = fullYear.toString().slice(2,4);
   let yearBefore = year - 1;
@@ -30,6 +30,16 @@ function generateCnp(gender, fullYear) {
   let randomYear = Math.random();
   let randomMonth = Math.round(Math.random() * 11 + 1);
   let randomDay = 0;
+
+  let county = generateCounty();
+  let countyCode = counties
+                    .filter((c) => c.county === county)
+                    .map((c) => c.code);
+  countyCode = countyCode < 10 ? "0" + countyCode : countyCode.toString();
+
+  let randomThreeNumber = Math.round(Math.random() * 999).toString();
+  if (randomThreeNumber < 10) randomThreeNumber = "00" + randomThreeNumber;
+  else if (randomThreeNumber < 100) randomThreeNumber = "0" + randomThreeNumber;
 
   if (thirtyDays.indexOf(randomMonth) > -1) {
     randomDay = Math.round(Math.random() * 30);
@@ -51,18 +61,18 @@ function generateCnp(gender, fullYear) {
     genderIndex = gender === "male" ? 5 : 6;
   }
 
-  return `${genderIndex}${randomYear}${randomMonth}${randomDay}`;
+  let cnp = `${genderIndex}${randomYear}${randomMonth}${randomDay}${countyCode}${randomThreeNumber}`;
+
+  let controlNumber = generateControlNumber(cnp);
+
+  return `${cnp + controlNumber}`;
 }
 
 let years = {};
-for (i=0; i<1000;i++) {
-  let year = generateCnp("female", 2000);
-  // if (!years[year]) years[year] = 0;
-  // years[year]++;
-  console.log(year);
+for (i=0; i<1000000;i++) {
+  let year = generateCnp("male", "1994");
+   console.log(year, validateCnpFormat(year))
 }
-
-console.log(years);
 
 function extractFromCnp(cnp) {
   let extracted = {};
@@ -106,7 +116,6 @@ function validateCnpFormat(cnp) {
 
 function validateCnpContent(cnp) {
   let genderIndexValue = [1, 2, 5, 6];
-  let controlNumberHelper = [2, 7, 9, 1, 4, 6, 3, 5, 8, 2, 7, 9];
   let genderIndex = parseInt(cnp.slice(0,1));
   let birthYear = parseInt(cnp.slice(1, 3));
   let birthMonth = parseInt(cnp.slice(3, 5));
@@ -127,12 +136,7 @@ function validateCnpContent(cnp) {
     return false;
   }
 
-  let cnpSplitted = cnp.slice(0, 12).split('');
-  let controlNumber = cnpSplitted.reduce((final, number, index) => {
-    final += number * controlNumberHelper[index];
-    if (index === 11) final = final % 11;
-    return final;
-  }, 0);
+  let controlNumber = generateControlNumber(cnp);
 
   if (controlNumber != cnp[12]) {
     console.error("This is not a valid CNP");
@@ -142,7 +146,30 @@ function validateCnpContent(cnp) {
   return true;
 }
 
+function generateControlNumber(cnp) {
+  let controlNumberHelper = [2, 7, 9, 1, 4, 6, 3, 5, 8, 2, 7, 9];
+  let cnpSplitted = cnp.slice(0, 12).split('');
+  let controlNumber = cnpSplitted.reduce((final, number, index) => {
+    final += number * controlNumberHelper[index];
+    if (index === 11) final = final % 11;
+    return final;
+  }, 0);
+  controlNumber = controlNumber === 10 ? 1 : controlNumber;
+  return controlNumber;
+}
+
+function generateCounty() {
+  let counties = ['Iași', 'Bacău', 'Suceava', 'București',
+                  'Covasna', 'Harghita', 'Brașov', 'Bihor',
+                  'Sibiu', 'Alba', 'Satu Mare', 'Sălaj',
+                  'Maramureș', 'Mureș', 'Cluj', 'Timiș'];
+  let randomNumber = Math.floor(Math.random() * counties.length);
+
+  return counties[randomNumber];
+}
+
 module.exports = {
+  generateCnp,
   extractFromCnp,
   validateCnpFormat,
   validateCnpContent

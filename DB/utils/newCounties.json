@@ -2,241 +2,289 @@
     {
         "code": 1,
         "county": "Alba",
-        "mainCity": "Alba-Iulia"
+        "mainCity": "Alba-Iulia",
+        "probability": 0.4
     },
     {
         "code": 2,
         "county": "Arad",
-        "mainCity": "Arad"
+        "mainCity": "Arad",
+        "probability": 0.15
     },
     {
         "code": 3,
         "county": "Argeș",
-        "mainCity": "Piteşti"
+        "mainCity": "Piteşti",
+        "probability": 0.005
     },
     {
         "code": 4,
         "county": "Bacău",
-        "mainCity": "Bacău"
+        "mainCity": "Bacău",
+        "probability": 0.15
     },
     {
         "code": 5,
         "county": "Bihor",
-        "mainCity": "Oradea"
+        "mainCity": "Oradea",
+        "probability": 0.3
     },
     {
         "code": 6,
         "county": "Bistrița-Năsăud",
-        "mainCity": "Bistrița"
+        "mainCity": "Bistrița",
+        "probability": 0.35
     },
     {
         "code": 7,
         "county": "Botoșani",
-        "mainCity": "Botoșani"
+        "mainCity": "Botoșani",
+        "probability": 0.15
     },
     {
         "code": 8,
         "county": "Brașov",
-        "mainCity": "Brașov"
+        "mainCity": "Brașov",
+        "probability": 0.25
     },
     {
         "code": 9,
         "county": "Brăila",
-        "mainCity": "Brăila"
+        "mainCity": "Brăila",
+        "probability": 0.005
     },
     {
         "code": 10,
         "county": "Buzău",
-        "mainCity": "Buzău"
+        "mainCity": "Buzău",
+        "probability": 0.1
     },
     {
         "code": 11,
         "county": "Caraș-Severin",
-        "mainCity": "Reşiţa"
+        "mainCity": "Reşiţa",
+        "probability": 0.005
     },
     {
         "code": 12,
         "county": "Cluj",
-        "mainCity": "Cluj-Napoca"
+        "mainCity": "Cluj-Napoca",
+        "probability": 0.60
     },
     {
         "code": 13,
         "county": "Constanța",
-        "mainCity": "Constanța"
+        "mainCity": "Constanța",
+        "probability": 0.005
     },
     {
         "code": 14,
         "county": "Covasna",
-        "mainCity": "Sfântu Gheorghe"
+        "mainCity": "Sfântu Gheorghe",
+        "probability": 0.20
     },
     {
         "code": 15,
         "county": "Dâmbovița",
-        "mainCity": "Târgovişte"
+        "mainCity": "Târgovişte",
+        "probability": 0.005
     },
     {
         "code": 16,
         "county": "Dolj",
-        "mainCity": "Craiova"
+        "mainCity": "Craiova",
+        "probability": 0.01
     },
     {
         "code": 17,
         "county": "Galați",
-        "mainCity": "Galați"
+        "mainCity": "Galați",
+        "probability": 0.005
     },
     {
         "code": 18,
         "county": "Gorj",
-        "mainCity": "Târgu Jiu"
+        "mainCity": "Târgu Jiu",
+        "probability": 0.005
     },
     {
         "code": 19,
         "county": "Harghita",
-        "mainCity": "Miercurea Ciuc"
+        "mainCity": "Miercurea Ciuc",
+        "probability": 0.25
     },
     {
         "code": 20,
         "county": "Hunedoara",
-        "mainCity": "Deva"
+        "mainCity": "Deva",
+        "probability": 0.40
     },
     {
         "code": 21,
         "county": "Ialomița",
-        "mainCity": "Slobozia"
+        "mainCity": "Slobozia",
+        "probability": 0.005
     },
     {
         "code": 22,
         "county": "Iași",
-        "mainCity": "Iaşi"
+        "mainCity": "Iaşi",
+        "probability": 0.1
     },
     {
         "code": 23,
         "county": "Ilfov",
-        "mainCity": "Bucureşti"
+        "mainCity": "București",
+        "probability": 0.05
     },
     {
         "code": 24,
         "county": "Maramureș",
-        "mainCity": "Baia Mare"
+        "mainCity": "Baia Mare",
+        "probability": 0.40
     },
     {
         "code": 25,
         "county": "Mehedinți",
-        "mainCity": "Drobeta-Turnu Severin"
+        "mainCity": "Drobeta-Turnu Severin",
+        "probability": 0.005
     },
     {
         "code": 26,
         "county": "Mureș",
-        "mainCity": "Târgu Mureș"
+        "mainCity": "Târgu Mureș",
+        "probability": 0.40
     },
     {
         "code": 27,
         "county": "Neamț",
-        "mainCity": "Piatra Neamț"
+        "mainCity": "Piatra Neamț",
+        "probability": 0.005
     },
     {
         "code": 28,
         "county": "Olt",
-        "mainCity": "Slatina"
+        "mainCity": "Slatina",
+        "probability": 0.005
     },
     {
         "code": 29,
         "county": "Prahova",
-        "mainCity": "Ploieşti"
+        "mainCity": "Ploieşti",
+        "probability": 0.08
     },
     {
         "code": 30,
         "county": "Satu Mare",
-        "mainCity": "Satu Mare"
+        "mainCity": "Satu Mare",
+        "probability": 0.23
     },
     {
         "code": 31,
         "county": "Sălaj",
-        "mainCity": "Zalău"
+        "mainCity": "Zalău",
+        "probability": 0.35
     },
     {
         "code": 32,
         "county": "Sibiu",
-        "mainCity": "Sibiu"
+        "mainCity": "Sibiu",
+        "probability": 0.18
     },
     {
         "code": 33,
         "county": "Suceava",
-        "mainCity": "Suceava"
+        "mainCity": "Suceava",
+        "probability": 0.11
     },
     {
         "code": 34,
         "county": "Teleorman",
-        "mainCity": "Alexandria"
+        "mainCity": "Alexandria",
+        "probability": 0.06
     },
     {
         "code": 35,
         "county": "Timiș",
-        "mainCity": "Timişoara"
+        "mainCity": "Timişoara",
+        "probability": 0.15
     },
     {
         "code": 36,
         "county": "Tulcea",
-        "mainCity": "Tulcea"
+        "mainCity": "Tulcea",
+        "probability": 0.001
     },
     {
         "code": 37,
         "county": "Vaslui",
-        "mainCity": "Vaslui"
+        "mainCity": "Vaslui",
+        "probability": 0.009
     },
     {
         "code": 38,
         "county": "Vâlcea",
-        "mainCity": "Râmnicu Vâlcea"
+        "mainCity": "Râmnicu Vâlcea",
+        "probability": 0.13
     },
     {
         "code": 39,
         "county": "Vrancea",
-        "mainCity": "Focşani"
+        "mainCity": "Focşani",
+        "probability": 0.05
     },
     {
         "code": 40,
         "county": "București",
-        "mainCity": "București"
+        "mainCity": "București",
+        "probability": 0.05
     },
     {
         "code": 41,
         "county": "București S.1",
-        "mainCity": "București S.1"
+        "mainCity": "București S.1",
+        "probability": 0.03
     },
     {
         "code": 42,
         "county": "București S.2",
-        "mainCity": "București S.2"
+        "mainCity": "București S.2",
+        "probability": 0.03
     },
     {
         "code": 43,
         "county": "București S.3",
-        "mainCity": "București S.3"
+        "mainCity": "București S.3",
+        "probability": 0.03
     },
     {
         "code": 44,
         "county": "București S.4",
-        "mainCity": "București S.4"
+        "mainCity": "București S.4",
+        "probability": 0.02
     },
     {
         "code": 45,
         "county": "București S.5",
-        "mainCity": "București S.5"
+        "mainCity": "București S.5",
+        "probability": 0.04
     },
     {
         "code": 46,
         "county": "București S.6",
-        "mainCity": "București S.6"
+        "mainCity": "București S.6",
+        "probability": 0.01
     },
     {
         "code": 51,
         "county": "Călărași",
-        "mainCity": "Călărași"
+        "mainCity": "Călărași",
+        "probability": 0.005
     },
     {
         "code": 52,
         "county": "Giurgiu",
-        "mainCity": "Giurgiu"
+        "mainCity": "Giurgiu",
+        "probability": 0.005
     }
 ]
