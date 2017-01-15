@@ -1,0 +1,242 @@
+[
+    {
+        "code": 1,
+        "county": "Alba",
+        "mainCity": "Alba-Iulia"
+    },
+    {
+        "code": 2,
+        "county": "Arad",
+        "mainCity": "Arad"
+    },
+    {
+        "code": 3,
+        "county": "Argeș",
+        "mainCity": "Piteşti"
+    },
+    {
+        "code": 4,
+        "county": "Bacău",
+        "mainCity": "Bacău"
+    },
+    {
+        "code": 5,
+        "county": "Bihor",
+        "mainCity": "Oradea"
+    },
+    {
+        "code": 6,
+        "county": "Bistrița-Năsăud",
+        "mainCity": "Bistrița"
+    },
+    {
+        "code": 7,
+        "county": "Botoșani",
+        "mainCity": "Botoșani"
+    },
+    {
+        "code": 8,
+        "county": "Brașov",
+        "mainCity": "Brașov"
+    },
+    {
+        "code": 9,
+        "county": "Brăila",
+        "mainCity": "Brăila"
+    },
+    {
+        "code": 10,
+        "county": "Buzău",
+        "mainCity": "Buzău"
+    },
+    {
+        "code": 11,
+        "county": "Caraș-Severin",
+        "mainCity": "Reşiţa"
+    },
+    {
+        "code": 12,
+        "county": "Cluj",
+        "mainCity": "Cluj-Napoca"
+    },
+    {
+        "code": 13,
+        "county": "Constanța",
+        "mainCity": "Constanța"
+    },
+    {
+        "code": 14,
+        "county": "Covasna",
+        "mainCity": "Sfântu Gheorghe"
+    },
+    {
+        "code": 15,
+        "county": "Dâmbovița",
+        "mainCity": "Târgovişte"
+    },
+    {
+        "code": 16,
+        "county": "Dolj",
+        "mainCity": "Craiova"
+    },
+    {
+        "code": 17,
+        "county": "Galați",
+        "mainCity": "Galați"
+    },
+    {
+        "code": 18,
+        "county": "Gorj",
+        "mainCity": "Târgu Jiu"
+    },
+    {
+        "code": 19,
+        "county": "Harghita",
+        "mainCity": "Miercurea Ciuc"
+    },
+    {
+        "code": 20,
+        "county": "Hunedoara",
+        "mainCity": "Deva"
+    },
+    {
+        "code": 21,
+        "county": "Ialomița",
+        "mainCity": "Slobozia"
+    },
+    {
+        "code": 22,
+        "county": "Iași",
+        "mainCity": "Iaşi"
+    },
+    {
+        "code": 23,
+        "county": "Ilfov",
+        "mainCity": "Bucureşti"
+    },
+    {
+        "code": 24,
+        "county": "Maramureș",
+        "mainCity": "Baia Mare"
+    },
+    {
+        "code": 25,
+        "county": "Mehedinți",
+        "mainCity": "Drobeta-Turnu Severin"
+    },
+    {
+        "code": 26,
+        "county": "Mureș",
+        "mainCity": "Târgu Mureș"
+    },
+    {
+        "code": 27,
+        "county": "Neamț",
+        "mainCity": "Piatra Neamț"
+    },
+    {
+        "code": 28,
+        "county": "Olt",
+        "mainCity": "Slatina"
+    },
+    {
+        "code": 29,
+        "county": "Prahova",
+        "mainCity": "Ploieşti"
+    },
+    {
+        "code": 30,
+        "county": "Satu Mare",
+        "mainCity": "Satu Mare"
+    },
+    {
+        "code": 31,
+        "county": "Sălaj",
+        "mainCity": "Zalău"
+    },
+    {
+        "code": 32,
+        "county": "Sibiu",
+        "mainCity": "Sibiu"
+    },
+    {
+        "code": 33,
+        "county": "Suceava",
+        "mainCity": "Suceava"
+    },
+    {
+        "code": 34,
+        "county": "Teleorman",
+        "mainCity": "Alexandria"
+    },
+    {
+        "code": 35,
+        "county": "Timiș",
+        "mainCity": "Timişoara"
+    },
+    {
+        "code": 36,
+        "county": "Tulcea",
+        "mainCity": "Tulcea"
+    },
+    {
+        "code": 37,
+        "county": "Vaslui",
+        "mainCity": "Vaslui"
+    },
+    {
+        "code": 38,
+        "county": "Vâlcea",
+        "mainCity": "Râmnicu Vâlcea"
+    },
+    {
+        "code": 39,
+        "county": "Vrancea",
+        "mainCity": "Focşani"
+    },
+    {
+        "code": 40,
+        "county": "București",
+        "mainCity": "București"
+    },
+    {
+        "code": 41,
+        "county": "București S.1",
+        "mainCity": "București S.1"
+    },
+    {
+        "code": 42,
+        "county": "București S.2",
+        "mainCity": "București S.2"
+    },
+    {
+        "code": 43,
+        "county": "București S.3",
+        "mainCity": "București S.3"
+    },
+    {
+        "code": 44,
+        "county": "București S.4",
+        "mainCity": "București S.4"
+    },
+    {
+        "code": 45,
+        "county": "București S.5",
+        "mainCity": "București S.5"
+    },
+    {
+        "code": 46,
+        "county": "București S.6",
+        "mainCity": "București S.6"
+    },
+    {
+        "code": 51,
+        "county": "Călărași",
+        "mainCity": "Călărași"
+    },
+    {
+        "code": 52,
+        "county": "Giurgiu",
+        "mainCity": "Giurgiu"
+    }
+]
