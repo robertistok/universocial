@@ -1,212 +1,242 @@
 [
     {
         "nr": 1,
-        "firstname": "Badea",
-        "lastname": "Iulian",
+        "lastname": "Badea",
+        "firstname": "Iulian",
         "gender": "male",
-        "studentNumber": "21021794"
+        "studentNumber": "21021794",
+        "fullYear": 1998
     },
     {
         "nr": 2,
-        "firstname": "Berbecaru",
-        "lastname": "Andrei",
+        "lastname": "Berbecaru",
+        "firstname": "Andrei",
         "gender": "male",
-        "studentNumber": "21021803"
+        "studentNumber": "21021803",
+        "fullYear": 1998
     },
     {
         "nr": 3,
-        "firstname": "Bodea",
-        "lastname": "Ciprian",
+        "lastname": "Bodea",
+        "firstname": "Ciprian",
         "gender": "male",
-        "studentNumber": "21021810"
+        "studentNumber": "21021810",
+        "fullYear": 1998
     },
     {
         "nr": 4,
-        "firstname": "Borca",
-        "lastname": "Paul",
+        "lastname": "Borca",
+        "firstname": "Paul",
         "gender": "male",
-        "studentNumber": "21021817"
+        "studentNumber": "21021817",
+        "fullYear": 1998
     },
     {
         "nr": 5,
-        "firstname": "Campean",
-        "lastname": "Tudor",
+        "lastname": "Campean",
+        "firstname": "Tudor",
         "gender": "male",
-        "studentNumber": "21021827"
+        "studentNumber": "21021827",
+        "fullYear": 1998
     },
     {
         "nr": 6,
-        "firstname": "Chiorean",
-        "lastname": "Raul",
+        "lastname": "Chiorean",
+        "firstname": "Raul",
         "gender": "male",
-        "studentNumber": "21021832"
+        "studentNumber": "21021832",
+        "fullYear": 1998
     },
     {
         "nr": 7,
-        "firstname": "Ciubancan",
-        "lastname": "Mihai",
+        "lastname": "Ciubancan",
+        "firstname": "Mihai",
         "gender": "male",
-        "studentNumber": "21021839"
+        "studentNumber": "21021839",
+        "fullYear": 1998
     },
     {
         "nr": 8,
-        "firstname": "Coroian",
-        "lastname": "Calin",
+        "lastname": "Coroian",
+        "firstname": "Calin",
         "gender": "male",
-        "studentNumber": "21021844"
+        "studentNumber": "21021844",
+        "fullYear": 1998
     },
     {
         "nr": 9,
-        "firstname": "Dragomir",
-        "lastname": "Marius",
+        "lastname": "Dragomir",
+        "firstname": "Marius",
         "gender": "male",
-        "studentNumber": "21021858"
+        "studentNumber": "21021858",
+        "fullYear": 1998
     },
     {
         "nr": 10,
-        "firstname": "Dreptate",
-        "lastname": "Alexandru",
+        "lastname": "Dreptate",
+        "firstname": "Alexandru",
         "gender": "male",
-        "studentNumber": "21021859"
+        "studentNumber": "21021859",
+        "fullYear": 1998
     },
     {
         "nr": 11,
-        "firstname": "Girda",
-        "lastname": "Bogdan",
+        "lastname": "Girda",
+        "firstname": "Bogdan",
         "gender": "male",
-        "studentNumber": "21021876"
+        "studentNumber": "21021876",
+        "fullYear": 1998
     },
     {
         "nr": 12,
-        "firstname": "Hangea",
-        "lastname": "Cristian",
+        "lastname": "Hangea",
+        "firstname": "Cristian",
         "gender": "male",
-        "studentNumber": "21021884"
+        "studentNumber": "21021884",
+        "fullYear": 1998
     },
     {
         "nr": 13,
-        "firstname": "Kelemen",
-        "lastname": "Sandor",
+        "lastname": "Kelemen",
+        "firstname": "Sandor",
         "gender": "male",
-        "studentNumber": "21021894"
+        "studentNumber": "21021894",
+        "fullYear": 1998
     },
     {
         "nr": 14,
-        "firstname": "Mada",
-        "lastname": "Felix",
+        "lastname": "Mada",
+        "firstname": "Felix",
         "gender": "male",
-        "studentNumber": "21021906"
+        "studentNumber": "21021906",
+        "fullYear": 1998
     },
     {
         "nr": 15,
-        "firstname": "Marcus",
-        "lastname": "Bogdan",
+        "lastname": "Marcus",
+        "firstname": "Bogdan",
         "gender": "male",
-        "studentNumber": "21021911"
+        "studentNumber": "21021911",
+        "fullYear": 1998
     },
     {
         "nr": 16,
-        "firstname": "Mihut",
-        "lastname": "Larisa",
+        "lastname": "Mihut",
+        "firstname": "Larisa",
         "gender": "female",
-        "studentNumber": "21021919"
+        "studentNumber": "21021919",
+        "fullYear": 1998
     },
     {
         "nr": 17,
-        "firstname": "Moldovan",
-        "lastname": "Ovidiu",
+        "lastname": "Moldovan",
+        "firstname": "Ovidiu",
         "gender": "male",
-        "studentNumber": "21021921"
+        "studentNumber": "21021921",
+        "fullYear": 1998
     },
     {
         "nr": 18,
-        "firstname": "Molnar",
-        "lastname": "Szilard",
+        "lastname": "Molnar",
+        "firstname": "Szilard",
         "gender": "male",
-        "studentNumber": "21021922"
+        "studentNumber": "21021922",
+        "fullYear": 1998
     },
     {
         "nr": 19,
-        "firstname": "Munte",
-        "lastname": "Vlad",
+        "lastname": "Munte",
+        "firstname": "Vlad",
         "gender": "male",
-        "studentNumber": "21021924"
+        "studentNumber": "21021924",
+        "fullYear": 1998
     },
     {
         "nr": 20,
-        "firstname": "Muresan",
-        "lastname": "Beniamin",
+        "lastname": "Muresan",
+        "firstname": "Beniamin",
         "gender": "male",
-        "studentNumber": "21021928"
+        "studentNumber": "21021928",
+        "fullYear": 1998
     },
     {
         "nr": 21,
-        "firstname": "Nenu",
-        "lastname": "Maria",
+        "lastname": "Nenu",
+        "firstname": "Maria",
         "gender": "female",
-        "studentNumber": "21021935"
+        "studentNumber": "21021935",
+        "fullYear": 1998
     },
     {
         "nr": 22,
-        "firstname": "Ordogh",
-        "lastname": "Noemi",
+        "lastname": "Ordogh",
+        "firstname": "Noemi",
         "gender": "female",
-        "studentNumber": "21021942"
+        "studentNumber": "21021942",
+        "fullYear": 1998
     },
     {
         "nr": 23,
-        "firstname": "Otelea",
-        "lastname": "Darius",
+        "lastname": "Otelea",
+        "firstname": "Darius",
         "gender": "male",
-        "studentNumber": "21021945"
+        "studentNumber": "21021945",
+        "fullYear": 1998
     },
     {
         "nr": 24,
-        "firstname": "Petrenciuc",
-        "lastname": "Vlad",
+        "lastname": "Petrenciuc",
+        "firstname": "Vlad",
         "gender": "male",
-        "studentNumber": "21021951"
+        "studentNumber": "21021951",
+        "fullYear": 1998
     },
     {
         "nr": 25,
-        "firstname": "Racila",
-        "lastname": "Diana",
+        "lastname": "Racila",
+        "firstname": "Diana",
         "gender": "female",
-        "studentNumber": "21021963"
+        "studentNumber": "21021963",
+        "fullYear": 1998
     },
     {
         "nr": 26,
-        "firstname": "Selicean",
-        "lastname": "Orlando",
+        "lastname": "Selicean",
+        "firstname": "Orlando",
         "gender": "male",
-        "studentNumber": "21021978"
+        "studentNumber": "21021978",
+        "fullYear": 1998
     },
     {
         "nr": 27,
-        "firstname": "Todoran",
-        "lastname": "Alex",
+        "lastname": "Todoran",
+        "firstname": "Alex",
         "gender": "male",
-        "studentNumber": "21021999"
+        "studentNumber": "21021999",
+        "fullYear": 1998
     },
     {
         "nr": 28,
-        "firstname": "Vikk",
-        "lastname": "Darius",
+        "lastname": "Vikk",
+        "firstname": "Darius",
         "gender": "male",
-        "studentNumber": "21022015"
+        "studentNumber": "21022015",
+        "fullYear": 1998
     },
     {
         "nr": 29,
-        "firstname": "Voican",
-        "lastname": "Andrei",
+        "lastname": "Voican",
+        "firstname": "Andrei",
         "gender": "male",
-        "studentNumber": "21022021"
+        "studentNumber": "21022021",
+        "fullYear": 1998
     },
     {
         "nr": 30,
-        "firstname": "Voicu",
-        "lastname": "Alin",
+        "lastname": "Voicu",
+        "firstname": "Alin",
         "gender": "male",
-        "studentNumber": "21022022"
+        "studentNumber": "21022022",
+        "fullYear": 1998
     }
 ]

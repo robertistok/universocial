@@ -68,14 +68,7 @@ function generateCnp(gender, fullYear) {
   return `${cnp + controlNumber}`;
 }
 
-let years = {};
-for (i=0; i<1000000;i++) {
-  let year = generateCnp("male", "1994");
-   console.log(year, validateCnpFormat(year))
-}
-
 function extractFromCnp(cnp) {
-  let extracted = {};
   let genderIndex = parseInt(cnp.slice(0,1));
   let birthYear = parseInt(cnp.slice(1, 3));
   let birthMonth = parseInt(cnp.slice(3, 5));
@@ -92,12 +85,13 @@ function extractFromCnp(cnp) {
   let gender = isMale ? 'male' : 'female';
 
   let countyIndex = parseInt(cnp.slice(7, 9));
-  let county = counties.filter(c => c.code === countyIndex);
+  let county = counties.filter(c => c.code == countyIndex);
 
-  extracted.countyOfBirth = county[0].name;
-  extracted.gender = gender;
-  extracted.dateOfBirth = birthDate;
-  return extracted;
+  return {
+    countyOfBirth: county[0].county,
+    gender,
+    dateOfBirth: birthDate
+  };
 }
 
 function validateCnpFormat(cnp) {

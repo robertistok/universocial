@@ -6,36 +6,32 @@ const StudentSchema = new Schema({
   username: String,
   password: String,
   email:    String,
-
-  identificationData: {
-    firstname: String,
-    lastname:  String,
-    gender: String,
-    phone: Number,
-    dateOfBirth: Date,
-    countyOfOrigin: String
-    identityCard: {
-      type: String,
-      series: Number,
-    },
-    other: {
-      militaryStatus: String,
-      maritalStatus: String,
-      nationality: String,
-      bankAccount: String
-    }
-  },
-
+  firstname: String,
+  lastname:  String,
+  gender: String,
+  phone: Number,
+  dateOfBirth: Date,
+  countyOfOrigin: String,
+  militaryStatus: String,
+  maritalStatus: String,
+  nationality: String,
+  bankAccount: String
+  ,
   academicData: {
+    studentNumber: Number,
+    groupID: Number,
     faculty: String,
     specialization: String,
     startYear: Number,
-    expectedFinish: Number,
     currentYear: { type: Number, "default": 1},
-    groupID: Number,
-    subjects: { type: Array, "default": [] }
+    grades: [{
+      type: Schema.Types.ObjectId,
+      ref: 'grades'
+    }]
   }
-})
+});
+
+// TO-DO: expectedFinish virtual implementation
 
 const Student = mongoose.model('student', StudentSchema);
 module.exports = Student;

@@ -17,3 +17,12 @@ before((done) => {
       done();
     });
   })
+
+beforeEach((done) => {
+  const { students, grades} = mongoose.connection.collections;
+  students.drop(() => {
+    grades.drop(() => {
+        done();
+    })
+  });
+});
