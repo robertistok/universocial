@@ -10,7 +10,7 @@ function generateUnamePassEmail(firstname, lastname) {
   let fnameLovercase = firstname.toLowerCase();
   let lnameLovercase = lastname.toLowerCase();
 
-  let joined = fnameLovercase + lnameLovercase;
+  let joined = fnameLovercase + lnameLovercase + Math.round(Math.random() * 99);
 
   return {
     username: joined,

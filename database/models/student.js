@@ -1,6 +1,10 @@
 const mongoose = require('mongoose');
 const Schema = mongoose.Schema;
 
+// TODO: expectedFinish virtual implementation
+// TODO: requried fields and validation
+// TODO: it should have notifications
+
 const StudentSchema = new Schema({
   CNP: String,
   username: String,
@@ -15,23 +19,24 @@ const StudentSchema = new Schema({
   militaryStatus: String,
   maritalStatus: String,
   nationality: String,
-  bankAccount: String
-  ,
-  academicData: {
-    studentNumber: Number,
-    groupID: Number,
-    faculty: String,
-    specialization: String,
-    startYear: Number,
-    currentYear: { type: Number, "default": 1},
-    grades: [{
-      type: Schema.Types.ObjectId,
-      ref: 'grades'
-    }]
-  }
+  bankAccount: String,
+  identificationNumber: {
+    type: Number,
+    unique: true
+  },
+  groupID: {
+    type: Schema.Types.ObjectId,
+    ref: 'group'
+  },
+  grades: [{
+    type: Schema.Types.ObjectId,
+    ref: 'grade'
+  }],
+  attendance: [{
+    type: Schema.Types.ObjectId,
+    ref: 'attendance'
+  }]
 });
-
-// TO-DO: expectedFinish virtual implementation
 
 const Student = mongoose.model('student', StudentSchema);
 module.exports = Student;

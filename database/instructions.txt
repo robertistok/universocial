@@ -1,0 +1,16 @@
+Student:
+  - a student should have all its identification data, including username and password
+  - the identification number comes from the parsed data
+  - the groupID is a reference to the "group" schema;
+
+Teacher:
+
+Group:
+
+Course:
+
+Grade:
+
+Attendance:
+
+Notification:

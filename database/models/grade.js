@@ -2,15 +2,19 @@ const mongoose = require('mongoose');
 const Schema = mongoose.Schema;
 
 const GradeSchema = new Schema({
-  timestamp: {
+  enteredOn: {
     type: Date,
     default: Date.now
   },
+  enteredFor: {
+    type: Date,
+    //required: true
+  },
   grade: {
     type: Number,
-    //required: true,
     min: [1, '1 is the minimum grade you can assign'],
     max: [10, '10 is the maximum grade you can assign']
+    //required: true,
   },
   course: {
     type: Schema.Types.ObjectId,
@@ -27,14 +31,14 @@ const GradeSchema = new Schema({
     ref: 'teacher',
     //required: true
   },
-  // type: {
-  //   type: String,
-  //   required: true,
-  //   validate: {
-  //     validator: (type) => ['lecture, lab, project, seminar'].indexOf(type) > -1,
-  //     message: 'You can only assign a grade of type lecture, lab, project or seminar'
-  //   }
-  // }
+  type: {
+    type: String,
+    //required: true,
+    validate: {
+      validator: (type) => ['lecture, lab, project, seminar'].indexOf(type) > -1,
+      message: 'You can only assign a grade of type lecture, lab, project or seminar'
+    }
+  }
 });
 
 const Grade = mongoose.model('grade', GradeSchema);

@@ -1,0 +1,1802 @@
+[
+    {
+        "index": 0,
+        "firstname": "Badea",
+        "lastname": "Iulian",
+        "gender": "male",
+        "fullYear": 1997,
+        "studentNumber": "21021794"
+    },
+    {
+        "index": 1,
+        "firstname": "Berbecaru",
+        "lastname": "Andrei",
+        "gender": "male",
+        "fullYear": 1997,
+        "studentNumber": "21021803"
+    },
+    {
+        "index": 2,
+        "firstname": "Bodea",
+        "lastname": "Ciprian",
+        "gender": "male",
+        "fullYear": 1997,
+        "studentNumber": "21021810"
+    },
+    {
+        "index": 3,
+        "firstname": "Borca",
+        "lastname": "Paul",
+        "gender": "male",
+        "fullYear": 1997,
+        "studentNumber": "21021817"
+    },
+    {
+        "index": 4,
+        "firstname": "Campean",
+        "lastname": "Tudor",
+        "gender": "male",
+        "fullYear": 1997,
+        "studentNumber": "21021827"
+    },
+    {
+        "index": 5,
+        "firstname": "Chiorean",
+        "lastname": "Raul",
+        "gender": "male",
+        "fullYear": 1997,
+        "studentNumber": "21021832"
+    },
+    {
+        "index": 6,
+        "firstname": "Ciubancan",
+        "lastname": "Mihai",
+        "gender": "male",
+        "fullYear": 1997,
+        "studentNumber": "21021839"
+    },
+    {
+        "index": 7,
+        "firstname": "Coroian",
+        "lastname": "Calin",
+        "gender": "male",
+        "fullYear": 1997,
+        "studentNumber": "21021844"
+    },
+    {
+        "index": 8,
+        "firstname": "Dragomir",
+        "lastname": "Marius",
+        "gender": "male",
+        "fullYear": 1997,
+        "studentNumber": "21021858"
+    },
+    {
+        "index": 9,
+        "firstname": "Dreptate",
+        "lastname": "Alexandru",
+        "gender": "male",
+        "fullYear": 1997,
+        "studentNumber": "21021859"
+    },
+    {
+        "index": 10,
+        "firstname": "Girda",
+        "lastname": "Bogdan",
+        "gender": "male",
+        "fullYear": 1997,
+        "studentNumber": "21021876"
+    },
+    {
+        "index": 11,
+        "firstname": "Hangea",
+        "lastname": "Cristian",
+        "gender": "male",
+        "fullYear": 1997,
+        "studentNumber": "21021884"
+    },
+    {
+        "index": 12,
+        "firstname": "Kelemen",
+        "lastname": "Sandor",
+        "gender": "male",
+        "fullYear": 1997,
+        "studentNumber": "21021894"
+    },
+    {
+        "index": 13,
+        "firstname": "Mada",
+        "lastname": "Felix",
+        "gender": "male",
+        "fullYear": 1997,
+        "studentNumber": "21021906"
+    },
+    {
+        "index": 14,
+        "firstname": "Marcus",
+        "lastname": "Bogdan",
+        "gender": "male",
+        "fullYear": 1997,
+        "studentNumber": "21021911"
+    },
+    {
+        "index": 15,
+        "firstname": "Mihut",
+        "lastname": "Larisa",
+        "gender": "female",
+        "fullYear": 1997,
+        "studentNumber": "21021919"
+    },
+    {
+        "index": 16,
+        "firstname": "Moldovan",
+        "lastname": "Ovidiu",
+        "gender": "male",
+        "fullYear": 1997,
+        "studentNumber": "21021921"
+    },
+    {
+        "index": 17,
+        "firstname": "Molnar",
+        "lastname": "Szilard",
+        "gender": "male",
+        "fullYear": 1997,
+        "studentNumber": "21021922"
+    },
+    {
+        "index": 18,
+        "firstname": "Munte",
+        "lastname": "Vlad",
+        "gender": "male",
+        "fullYear": 1997,
+        "studentNumber": "21021924"
+    },
+    {
+        "index": 19,
+        "firstname": "Muresan",
+        "lastname": "Beniamin",
+        "gender": "male",
+        "fullYear": 1997,
+        "studentNumber": "21021928"
+    },
+    {
+        "index": 20,
+        "firstname": "Nenu",
+        "lastname": "Maria",
+        "gender": "female",
+        "fullYear": 1997,
+        "studentNumber": "21021935"
+    },
+    {
+        "index": 21,
+        "firstname": "Ordogh",
+        "lastname": "Noemi",
+        "gender": "female",
+        "fullYear": 1997,
+        "studentNumber": "21021942"
+    },
+    {
+        "index": 22,
+        "firstname": "Otelea",
+        "lastname": "Darius",
+        "gender": "male",
+        "fullYear": 1997,
+        "studentNumber": "21021945"
+    },
+    {
+        "index": 23,
+        "firstname": "Petrenciuc",
+        "lastname": "Vlad",
+        "gender": "male",
+        "fullYear": 1997,
+        "studentNumber": "21021951"
+    },
+    {
+        "index": 24,
+        "firstname": "Racila",
+        "lastname": "Diana",
+        "gender": "female",
+        "fullYear": 1997,
+        "studentNumber": "21021963"
+    },
+    {
+        "index": 25,
+        "firstname": "Selicean",
+        "lastname": "Orlando",
+        "gender": "male",
+        "fullYear": 1997,
+        "studentNumber": "21021978"
+    },
+    {
+        "index": 26,
+        "firstname": "Todoran",
+        "lastname": "Alex",
+        "gender": "male",
+        "fullYear": 1997,
+        "studentNumber": "21021999"
+    },
+    {
+        "index": 27,
+        "firstname": "Vikk",
+        "lastname": "Darius",
+        "gender": "male",
+        "fullYear": 1997,
+        "studentNumber": "21022015"
+    },
+    {
+        "index": 28,
+        "firstname": "Voican",
+        "lastname": "Andrei",
+        "gender": "male",
+        "fullYear": 1997,
+        "studentNumber": "21022021"
+    },
+    {
+        "index": 29,
+        "firstname": "Voicu",
+        "lastname": "Alin",
+        "gender": "male",
+        "fullYear": 1997,
+        "studentNumber": "21022022"
+    },
+    {
+        "index": 30,
+        "firstname": "Bonta",
+        "lastname": "Sergiu",
+        "gender": "male",
+        "fullYear": 1997,
+        "studentNumber": "21021815"
+    },
+    {
+        "index": 31,
+        "firstname": "Bugnariu",
+        "lastname": "Andrei",
+        "gender": "male",
+        "fullYear": 1997,
+        "studentNumber": "21021822"
+    },
+    {
+        "index": 32,
+        "firstname": "Buricea",
+        "lastname": "Horatiu",
+        "gender": "male",
+        "fullYear": 1997,
+        "studentNumber": "21021824"
+    },
+    {
+        "index": 33,
+        "firstname": "Ciocirlan",
+        "lastname": "Gabriela",
+        "gender": "female",
+        "fullYear": 1997,
+        "studentNumber": "21021836"
+    },
+    {
+        "index": 34,
+        "firstname": "Ciorobitca",
+        "lastname": "Eduard",
+        "gender": "male",
+        "fullYear": 1997,
+        "studentNumber": "21021838"
+    },
+    {
+        "index": 35,
+        "firstname": "Covrig",
+        "lastname": "Bianca",
+        "gender": "female",
+        "fullYear": 1997,
+        "studentNumber": "21021845"
+    },
+    {
+        "index": 36,
+        "firstname": "Cozorici",
+        "lastname": "Ingrid",
+        "gender": "male",
+        "fullYear": 1997,
+        "studentNumber": "21021847"
+    },
+    {
+        "index": 37,
+        "firstname": "Czira",
+        "lastname": "Bence",
+        "gender": "male",
+        "fullYear": 1997,
+        "studentNumber": "21021851"
+    },
+    {
+        "index": 38,
+        "firstname": "Daczo",
+        "lastname": "Cadar",
+        "gender": "male",
+        "fullYear": 1997,
+        "studentNumber": "21021852"
+    },
+    {
+        "index": 39,
+        "firstname": "Dan",
+        "lastname": "Dragos",
+        "gender": "male",
+        "fullYear": 1997,
+        "studentNumber": "21021853"
+    },
+    {
+        "index": 40,
+        "firstname": "Duduiala",
+        "lastname": "Barsan",
+        "gender": "male",
+        "fullYear": 1997,
+        "studentNumber": "21021860"
+    },
+    {
+        "index": 41,
+        "firstname": "Dumitru",
+        "lastname": "Emanuel",
+        "gender": "male",
+        "fullYear": 1997,
+        "studentNumber": "21021862"
+    },
+    {
+        "index": 42,
+        "firstname": "Fusa",
+        "lastname": "George",
+        "gender": "male",
+        "fullYear": 1997,
+        "studentNumber": "21021869"
+    },
+    {
+        "index": 43,
+        "firstname": "Hossu",
+        "lastname": "Flaviu",
+        "gender": "male",
+        "fullYear": 1997,
+        "studentNumber": "21021887"
+    },
+    {
+        "index": 44,
+        "firstname": "Jitariu",
+        "lastname": "Ioana",
+        "gender": "female",
+        "fullYear": 1997,
+        "studentNumber": "21021893"
+    },
+    {
+        "index": 45,
+        "firstname": "Kozma",
+        "lastname": "Elisabeta",
+        "gender": "female",
+        "fullYear": 1997,
+        "studentNumber": "21021896"
+    },
+    {
+        "index": 46,
+        "firstname": "Lupascu",
+        "lastname": "Ciprian",
+        "gender": "male",
+        "fullYear": 1997,
+        "studentNumber": "21021904"
+    },
+    {
+        "index": 47,
+        "firstname": "Obogeanu",
+        "lastname": "Pavel",
+        "gender": "male",
+        "fullYear": 1997,
+        "studentNumber": "21021937"
+    },
+    {
+        "index": 48,
+        "firstname": "Oros",
+        "lastname": "Horea",
+        "gender": "male",
+        "fullYear": 1997,
+        "studentNumber": "21021943"
+    },
+    {
+        "index": 49,
+        "firstname": "Pitorac",
+        "lastname": "Vlad",
+        "gender": "male",
+        "fullYear": 1997,
+        "studentNumber": "21021952"
+    },
+    {
+        "index": 50,
+        "firstname": "Pocol",
+        "lastname": "Vlad",
+        "gender": "male",
+        "fullYear": 1997,
+        "studentNumber": "21021953"
+    },
+    {
+        "index": 51,
+        "firstname": "Pop",
+        "lastname": "Sandor",
+        "gender": "male",
+        "fullYear": 1997,
+        "studentNumber": "21021955"
+    },
+    {
+        "index": 52,
+        "firstname": "Popovici",
+        "lastname": "Alexandra",
+        "gender": "female",
+        "fullYear": 1997,
+        "studentNumber": "21021960"
+    },
+    {
+        "index": 53,
+        "firstname": "Rancea",
+        "lastname": "Alexandru",
+        "gender": "male",
+        "fullYear": 1997,
+        "studentNumber": "21021964"
+    },
+    {
+        "index": 54,
+        "firstname": "Tamas",
+        "lastname": "Emil",
+        "gender": "male",
+        "fullYear": 1997,
+        "studentNumber": "21021993"
+    },
+    {
+        "index": 55,
+        "firstname": "Tintas",
+        "lastname": "Iulia",
+        "gender": "female",
+        "fullYear": 1997,
+        "studentNumber": "21021997"
+    },
+    {
+        "index": 56,
+        "firstname": "Tyekar",
+        "lastname": "Dan",
+        "gender": "male",
+        "fullYear": 1997,
+        "studentNumber": "21022005"
+    },
+    {
+        "index": 57,
+        "firstname": "Vana",
+        "lastname": "Ciprian",
+        "gender": "male",
+        "fullYear": 1996,
+        "studentNumber": "21022011"
+    },
+    {
+        "index": 58,
+        "firstname": "Veres",
+        "lastname": "Andrei",
+        "gender": "male",
+        "fullYear": 1996,
+        "studentNumber": "21022012"
+    },
+    {
+        "index": 59,
+        "firstname": "Vultur",
+        "lastname": "Bogdan",
+        "gender": "male",
+        "fullYear": 1996,
+        "studentNumber": "21022024"
+    },
+    {
+        "index": 60,
+        "firstname": "Balaj",
+        "lastname": "Andrei",
+        "gender": "male",
+        "fullYear": 1996,
+        "studentNumber": "21021557"
+    },
+    {
+        "index": 61,
+        "firstname": "Burligica",
+        "lastname": "Ciprian",
+        "gender": "male",
+        "fullYear": 1996,
+        "studentNumber": "21021574"
+    },
+    {
+        "index": 62,
+        "firstname": "Carafa",
+        "lastname": "Florina",
+        "gender": "female",
+        "fullYear": 1996,
+        "studentNumber": "21021577"
+    },
+    {
+        "index": 63,
+        "firstname": "Ciunt",
+        "lastname": "Alexandru",
+        "gender": "male",
+        "fullYear": 1996,
+        "studentNumber": "21021592"
+    },
+    {
+        "index": 64,
+        "firstname": "Csosz",
+        "lastname": "Emoke",
+        "gender": "female",
+        "fullYear": 1996,
+        "studentNumber": "21021599"
+    },
+    {
+        "index": 65,
+        "firstname": "Danci",
+        "lastname": "Ionut",
+        "gender": "male",
+        "fullYear": 1996,
+        "studentNumber": "21021603"
+    },
+    {
+        "index": 66,
+        "firstname": "Dragomir",
+        "lastname": "Angelo",
+        "gender": "male",
+        "fullYear": 1996,
+        "studentNumber": "21021617"
+    },
+    {
+        "index": 67,
+        "firstname": "Flutur",
+        "lastname": "George",
+        "gender": "male",
+        "fullYear": 1996,
+        "studentNumber": "21021627"
+    },
+    {
+        "index": 68,
+        "firstname": "Groza",
+        "lastname": "Raul",
+        "gender": "male",
+        "fullYear": 1996,
+        "studentNumber": "21021636"
+    },
+    {
+        "index": 69,
+        "firstname": "Kerekes",
+        "lastname": "Emeric",
+        "gender": "male",
+        "fullYear": 1996,
+        "studentNumber": "21021648"
+    },
+    {
+        "index": 70,
+        "firstname": "Laczko",
+        "lastname": "Albert",
+        "gender": "male",
+        "fullYear": 1996,
+        "studentNumber": "21021652"
+    },
+    {
+        "index": 71,
+        "firstname": "Lar",
+        "lastname": "Eleonor",
+        "gender": "male",
+        "fullYear": 1996,
+        "studentNumber": "21021653"
+    },
+    {
+        "index": 72,
+        "firstname": "Lazar",
+        "lastname": "Bogdan",
+        "gender": "male",
+        "fullYear": 1996,
+        "studentNumber": "21021654"
+    },
+    {
+        "index": 73,
+        "firstname": "Lengyel",
+        "lastname": "Karoly",
+        "gender": "male",
+        "fullYear": 1996,
+        "studentNumber": "21021655"
+    },
+    {
+        "index": 74,
+        "firstname": "Litu",
+        "lastname": "Maria",
+        "gender": "female",
+        "fullYear": 1996,
+        "studentNumber": "21021657"
+    },
+    {
+        "index": 75,
+        "firstname": "Movileanu",
+        "lastname": "Bogdan",
+        "gender": "male",
+        "fullYear": 1996,
+        "studentNumber": "21021680"
+    },
+    {
+        "index": 76,
+        "firstname": "Nagy",
+        "lastname": "Levente",
+        "gender": "male",
+        "fullYear": 1996,
+        "studentNumber": "21021687"
+    },
+    {
+        "index": 77,
+        "firstname": "Oarga",
+        "lastname": "Ioan",
+        "gender": "male",
+        "fullYear": 1996,
+        "studentNumber": "21021695"
+    },
+    {
+        "index": 78,
+        "firstname": "Paul",
+        "lastname": "Daniel",
+        "gender": "male",
+        "fullYear": 1996,
+        "studentNumber": "21021701"
+    },
+    {
+        "index": 79,
+        "firstname": "Popa",
+        "lastname": "Octavian",
+        "gender": "male",
+        "fullYear": 1996,
+        "studentNumber": "21021713"
+    },
+    {
+        "index": 80,
+        "firstname": "Popescu",
+        "lastname": "Sorina",
+        "gender": "female",
+        "fullYear": 1996,
+        "studentNumber": "21021716"
+    },
+    {
+        "index": 81,
+        "firstname": "Pricop",
+        "lastname": "Stefan",
+        "gender": "male",
+        "fullYear": 1996,
+        "studentNumber": "21021489"
+    },
+    {
+        "index": 82,
+        "firstname": "Puscas",
+        "lastname": "Mihai",
+        "gender": "male",
+        "fullYear": 1996,
+        "studentNumber": "21021720"
+    },
+    {
+        "index": 83,
+        "firstname": "Serban",
+        "lastname": "Ioana",
+        "gender": "female",
+        "fullYear": 1996,
+        "studentNumber": "21021737"
+    },
+    {
+        "index": 84,
+        "firstname": "Teleaba",
+        "lastname": "Adrian",
+        "gender": "male",
+        "fullYear": 1996,
+        "studentNumber": "21021754"
+    },
+    {
+        "index": 85,
+        "firstname": "Todor",
+        "lastname": "Eduard",
+        "gender": "male",
+        "fullYear": 1996,
+        "studentNumber": "21021757"
+    },
+    {
+        "index": 86,
+        "firstname": "Ulici",
+        "lastname": "Ioana",
+        "gender": "female",
+        "fullYear": 1996,
+        "studentNumber": "21021764"
+    },
+    {
+        "index": 87,
+        "firstname": "Achim",
+        "lastname": "Cristian",
+        "gender": "male",
+        "fullYear": 1996,
+        "studentNumber": "21021543"
+    },
+    {
+        "index": 88,
+        "firstname": "Ambrus",
+        "lastname": "Bence",
+        "gender": "male",
+        "fullYear": 1996,
+        "studentNumber": "21021547"
+    },
+    {
+        "index": 89,
+        "firstname": "Arpastean",
+        "lastname": "Nicolae",
+        "gender": "male",
+        "fullYear": 1996,
+        "studentNumber": "21021553"
+    },
+    {
+        "index": 90,
+        "firstname": "Balabasciuc",
+        "lastname": "Georgiana",
+        "gender": "female",
+        "fullYear": 1996,
+        "studentNumber": "21021556"
+    },
+    {
+        "index": 91,
+        "firstname": "Becea",
+        "lastname": "Mihnea",
+        "gender": "male",
+        "fullYear": 1996,
+        "studentNumber": "21021561"
+    },
+    {
+        "index": 92,
+        "firstname": "Carjan",
+        "lastname": "Andreea",
+        "gender": "female",
+        "fullYear": 1996,
+        "studentNumber": "21021578"
+    },
+    {
+        "index": 93,
+        "firstname": "Danila",
+        "lastname": "Ada",
+        "gender": "female",
+        "fullYear": 1996,
+        "studentNumber": "21021605"
+    },
+    {
+        "index": 94,
+        "firstname": "Dranca",
+        "lastname": "Gabriel",
+        "gender": "male",
+        "fullYear": 1996,
+        "studentNumber": "21021618"
+    },
+    {
+        "index": 95,
+        "firstname": "Fazakas",
+        "lastname": "Peter",
+        "gender": "male",
+        "fullYear": 1996,
+        "studentNumber": "21021621"
+    },
+    {
+        "index": 96,
+        "firstname": "Fodor",
+        "lastname": "Stefan",
+        "gender": "male",
+        "fullYear": 1996,
+        "studentNumber": "21021628"
+    },
+    {
+        "index": 97,
+        "firstname": "Groza",
+        "lastname": "Andreea",
+        "gender": "female",
+        "fullYear": 1996,
+        "studentNumber": "21021635"
+    },
+    {
+        "index": 98,
+        "firstname": "Hanea",
+        "lastname": "Cosmin",
+        "gender": "male",
+        "fullYear": 1996,
+        "studentNumber": "21021637"
+    },
+    {
+        "index": 99,
+        "firstname": "Heredea",
+        "lastname": "David",
+        "gender": "male",
+        "fullYear": 1996,
+        "studentNumber": "21021406"
+    },
+    {
+        "index": 100,
+        "firstname": "Ionita",
+        "lastname": "Bogdan",
+        "gender": "male",
+        "fullYear": 1996,
+        "studentNumber": "21021642"
+    },
+    {
+        "index": 101,
+        "firstname": "Kundi",
+        "lastname": "Zoltan",
+        "gender": "male",
+        "fullYear": 1996,
+        "studentNumber": "21021651"
+    },
+    {
+        "index": 102,
+        "firstname": "Mesaros",
+        "lastname": "George",
+        "gender": "male",
+        "fullYear": 1996,
+        "studentNumber": "21021668"
+    },
+    {
+        "index": 103,
+        "firstname": "Mindru",
+        "lastname": "Mircea",
+        "gender": "male",
+        "fullYear": 1996,
+        "studentNumber": "21021670"
+    },
+    {
+        "index": 104,
+        "firstname": "Motorga",
+        "lastname": "Roxana",
+        "gender": "female",
+        "fullYear": 1996,
+        "studentNumber": "21021679"
+    },
+    {
+        "index": 105,
+        "firstname": "Muresan",
+        "lastname": "Stefan",
+        "gender": "male",
+        "fullYear": 1996,
+        "studentNumber": "21021684"
+    },
+    {
+        "index": 106,
+        "firstname": "Mustea",
+        "lastname": "Alexandra",
+        "gender": "male",
+        "fullYear": 1996,
+        "studentNumber": "21021686"
+    },
+    {
+        "index": 107,
+        "firstname": "Neamt",
+        "lastname": "Mihai",
+        "gender": "male",
+        "fullYear": 1996,
+        "studentNumber": "21021690"
+    },
+    {
+        "index": 108,
+        "firstname": "Pop",
+        "lastname": "Emanuel",
+        "gender": "male",
+        "fullYear": 1996,
+        "studentNumber": "21021709"
+    },
+    {
+        "index": 109,
+        "firstname": "Socaciu",
+        "lastname": "Eduard",
+        "gender": "male",
+        "fullYear": 1996,
+        "studentNumber": "21021741"
+    },
+    {
+        "index": 110,
+        "firstname": "Trif",
+        "lastname": "Tudor",
+        "gender": "male",
+        "fullYear": 1996,
+        "studentNumber": "21021526"
+    },
+    {
+        "index": 111,
+        "firstname": "Tulbure",
+        "lastname": "Andrei",
+        "gender": "male",
+        "fullYear": 1996,
+        "studentNumber": "21021762"
+    },
+    {
+        "index": 112,
+        "firstname": "Ungureanu",
+        "lastname": "Sebastian",
+        "gender": "male",
+        "fullYear": 1996,
+        "studentNumber": "21021765"
+    },
+    {
+        "index": 113,
+        "firstname": "Velcherean",
+        "lastname": "Raul",
+        "gender": "male",
+        "fullYear": 1996,
+        "studentNumber": "21021771"
+    },
+    {
+        "index": 114,
+        "firstname": "Vezentan",
+        "lastname": "Paul",
+        "gender": "male",
+        "fullYear": 1995,
+        "studentNumber": "21021773"
+    },
+    {
+        "index": 115,
+        "firstname": "Zaharie",
+        "lastname": "Iulia",
+        "gender": "female",
+        "fullYear": 1995,
+        "studentNumber": "21021776"
+    },
+    {
+        "index": 116,
+        "firstname": "Zugravu",
+        "lastname": "Mihnea",
+        "gender": "male",
+        "fullYear": 1995,
+        "studentNumber": "21021777"
+    },
+    {
+        "index": 117,
+        "firstname": "Blaj",
+        "lastname": "Gabriel",
+        "gender": "male",
+        "fullYear": 1995,
+        "studentNumber": "21021341"
+    },
+    {
+        "index": 118,
+        "firstname": "Catuna",
+        "lastname": "Catalin",
+        "gender": "male",
+        "fullYear": 1995,
+        "studentNumber": "21021362"
+    },
+    {
+        "index": 119,
+        "firstname": "Chifor",
+        "lastname": "Mircea",
+        "gender": "male",
+        "fullYear": 1995,
+        "studentNumber": "21021368"
+    },
+    {
+        "index": 120,
+        "firstname": "Cserei",
+        "lastname": "Marton",
+        "gender": "male",
+        "fullYear": 1995,
+        "studentNumber": "21021385"
+    },
+    {
+        "index": 121,
+        "firstname": "Detesan",
+        "lastname": "Paul",
+        "gender": "male",
+        "fullYear": 1995,
+        "studentNumber": "21021390"
+    },
+    {
+        "index": 122,
+        "firstname": "Fulop",
+        "lastname": "Andrea",
+        "gender": "female",
+        "fullYear": 1995,
+        "studentNumber": "21021398"
+    },
+    {
+        "index": 123,
+        "firstname": "Iuonas",
+        "lastname": "Nicolae",
+        "gender": "male",
+        "fullYear": 1995,
+        "studentNumber": "21021416"
+    },
+    {
+        "index": 124,
+        "firstname": "Kovari",
+        "lastname": "Andrei",
+        "gender": "male",
+        "fullYear": 1995,
+        "studentNumber": "21021422"
+    },
+    {
+        "index": 125,
+        "firstname": "Lascu",
+        "lastname": "Andrei",
+        "gender": "male",
+        "fullYear": 1995,
+        "studentNumber": "21021424"
+    },
+    {
+        "index": 126,
+        "firstname": "Manea",
+        "lastname": "Andrei",
+        "gender": "male",
+        "fullYear": 1995,
+        "studentNumber": "21021432"
+    },
+    {
+        "index": 127,
+        "firstname": "Marginean",
+        "lastname": "Vlad",
+        "gender": "male",
+        "fullYear": 1995,
+        "studentNumber": "21021433"
+    },
+    {
+        "index": 128,
+        "firstname": "Moldovan",
+        "lastname": "Vlad",
+        "gender": "male",
+        "fullYear": 1995,
+        "studentNumber": "21021447"
+    },
+    {
+        "index": 129,
+        "firstname": "Moncea",
+        "lastname": "Andrei",
+        "gender": "male",
+        "fullYear": 1995,
+        "studentNumber": "21021450"
+    },
+    {
+        "index": 130,
+        "firstname": "Nicoara",
+        "lastname": "Sebastian",
+        "gender": "male",
+        "fullYear": 1995,
+        "studentNumber": "21021460"
+    },
+    {
+        "index": 131,
+        "firstname": "Palko",
+        "lastname": "Eduard",
+        "gender": "male",
+        "fullYear": 1995,
+        "studentNumber": "21021467"
+    },
+    {
+        "index": 132,
+        "firstname": "Parlea",
+        "lastname": "Stefan",
+        "gender": "male",
+        "fullYear": 1995,
+        "studentNumber": "21021469"
+    },
+    {
+        "index": 133,
+        "firstname": "Pop",
+        "lastname": "Alexandru",
+        "gender": "male",
+        "fullYear": 1995,
+        "studentNumber": "21021481"
+    },
+    {
+        "index": 134,
+        "firstname": "Popescu",
+        "lastname": "Andrei",
+        "gender": "male",
+        "fullYear": 1995,
+        "studentNumber": "21021486"
+    },
+    {
+        "index": 135,
+        "firstname": "Sandu",
+        "lastname": "Tudor",
+        "gender": "male",
+        "fullYear": 1995,
+        "studentNumber": "21021505"
+    },
+    {
+        "index": 136,
+        "firstname": "Stancioi",
+        "lastname": "Cristina",
+        "gender": "female",
+        "fullYear": 1995,
+        "studentNumber": "21021515"
+    },
+    {
+        "index": 137,
+        "firstname": "Statie",
+        "lastname": "Giani",
+        "gender": "male",
+        "fullYear": 1995,
+        "studentNumber": "21021516"
+    },
+    {
+        "index": 138,
+        "firstname": "Suteu",
+        "lastname": "Alexandra",
+        "gender": "female",
+        "fullYear": 1995,
+        "studentNumber": "21021517"
+    },
+    {
+        "index": 139,
+        "firstname": "Szekely",
+        "lastname": "Arpad",
+        "gender": "male",
+        "fullYear": 1995,
+        "studentNumber": "21021518"
+    },
+    {
+        "index": 140,
+        "firstname": "Toldas",
+        "lastname": "George",
+        "gender": "male",
+        "fullYear": 1995,
+        "studentNumber": "21021524"
+    },
+    {
+        "index": 141,
+        "firstname": "Vacariu",
+        "lastname": "Paul",
+        "gender": "male",
+        "fullYear": 1995,
+        "studentNumber": "21021530"
+    },
+    {
+        "index": 142,
+        "firstname": "Vass",
+        "lastname": "Paul",
+        "gender": "male",
+        "fullYear": 1995,
+        "studentNumber": "21021534"
+    },
+    {
+        "index": 143,
+        "firstname": "Blaga",
+        "lastname": "Andreea",
+        "gender": "female",
+        "fullYear": 1995,
+        "studentNumber": "21021340"
+    },
+    {
+        "index": 144,
+        "firstname": "Brodetchi",
+        "lastname": "Andrei",
+        "gender": "male",
+        "fullYear": 1995,
+        "studentNumber": "21021350"
+    },
+    {
+        "index": 145,
+        "firstname": "Buta",
+        "lastname": "Maria",
+        "gender": "female",
+        "fullYear": 1995,
+        "studentNumber": "21021357"
+    },
+    {
+        "index": 146,
+        "firstname": "Cecalacean",
+        "lastname": "Doru",
+        "gender": "male",
+        "fullYear": 1995,
+        "studentNumber": "21021363"
+    },
+    {
+        "index": 147,
+        "firstname": "Crisan",
+        "lastname": "Petrica",
+        "gender": "male",
+        "fullYear": 1995,
+        "studentNumber": "21021384"
+    },
+    {
+        "index": 148,
+        "firstname": "Danku",
+        "lastname": "Alex",
+        "gender": "male",
+        "fullYear": 1995,
+        "studentNumber": "21021389"
+    },
+    {
+        "index": 149,
+        "firstname": "Ene",
+        "lastname": "Emil",
+        "gender": "male",
+        "fullYear": 1995,
+        "studentNumber": "21021393"
+    },
+    {
+        "index": 150,
+        "firstname": "Frinco",
+        "lastname": "Tudorel",
+        "gender": "male",
+        "fullYear": 1995,
+        "studentNumber": "21021397"
+    },
+    {
+        "index": 151,
+        "firstname": "Jecu",
+        "lastname": "Andrada",
+        "gender": "female",
+        "fullYear": 1995,
+        "studentNumber": "21021417"
+    },
+    {
+        "index": 152,
+        "firstname": "Mateas",
+        "lastname": "Vlad",
+        "gender": "male",
+        "fullYear": 1995,
+        "studentNumber": "21021437"
+    },
+    {
+        "index": 153,
+        "firstname": "Moldovan",
+        "lastname": "Iulia",
+        "gender": "female",
+        "fullYear": 1995,
+        "studentNumber": "21021446"
+    },
+    {
+        "index": 154,
+        "firstname": "Moldovan",
+        "lastname": "Vicentiu",
+        "gender": "male",
+        "fullYear": 1995,
+        "studentNumber": "21021448"
+    },
+    {
+        "index": 155,
+        "firstname": "Molnar",
+        "lastname": "Paul",
+        "gender": "male",
+        "fullYear": 1995,
+        "studentNumber": "21021449"
+    },
+    {
+        "index": 156,
+        "firstname": "Moraru",
+        "lastname": "Mihai",
+        "gender": "male",
+        "fullYear": 1995,
+        "studentNumber": "21021451"
+    },
+    {
+        "index": 157,
+        "firstname": "Muntean",
+        "lastname": "Horia",
+        "gender": "male",
+        "fullYear": 1995,
+        "studentNumber": "21021453"
+    },
+    {
+        "index": 158,
+        "firstname": "Oliva",
+        "lastname": "Alexandru",
+        "gender": "male",
+        "fullYear": 1995,
+        "studentNumber": "21021462"
+    },
+    {
+        "index": 159,
+        "firstname": "Opris",
+        "lastname": "Alexandru",
+        "gender": "male",
+        "fullYear": 1995,
+        "studentNumber": "21021464"
+    },
+    {
+        "index": 160,
+        "firstname": "Otel",
+        "lastname": "Andrei",
+        "gender": "male",
+        "fullYear": 1995,
+        "studentNumber": "21021466"
+    },
+    {
+        "index": 161,
+        "firstname": "Petrisor",
+        "lastname": "Rares",
+        "gender": "male",
+        "fullYear": 1995,
+        "studentNumber": "21021473"
+    },
+    {
+        "index": 162,
+        "firstname": "Platon",
+        "lastname": "Flavius",
+        "gender": "male",
+        "fullYear": 1995,
+        "studentNumber": "21021476"
+    },
+    {
+        "index": 163,
+        "firstname": "Pocol",
+        "lastname": "Dragos",
+        "gender": "male",
+        "fullYear": 1995,
+        "studentNumber": "21021477"
+    },
+    {
+        "index": 164,
+        "firstname": "Selagea",
+        "lastname": "Alexandru",
+        "gender": "male",
+        "fullYear": 1995,
+        "studentNumber": "21021511"
+    },
+    {
+        "index": 165,
+        "firstname": "Tolnai",
+        "lastname": "Mate",
+        "gender": "male",
+        "fullYear": 1995,
+        "studentNumber": "21021525"
+    },
+    {
+        "index": 166,
+        "firstname": "Vaida",
+        "lastname": "Sofia",
+        "gender": "female",
+        "fullYear": 1995,
+        "studentNumber": "21021531"
+    },
+    {
+        "index": 167,
+        "firstname": "Varterez",
+        "lastname": "Nagy",
+        "gender": "male",
+        "fullYear": 1995,
+        "studentNumber": "21021533"
+    },
+    {
+        "index": 168,
+        "firstname": "Bolboaca",
+        "lastname": "Ramona",
+        "gender": "female",
+        "fullYear": 1995,
+        "studentNumber": "21021128"
+    },
+    {
+        "index": 169,
+        "firstname": "Buzila",
+        "lastname": "Bianca",
+        "gender": "female",
+        "fullYear": 1995,
+        "studentNumber": "21021136"
+    },
+    {
+        "index": 170,
+        "firstname": "Capus",
+        "lastname": "Bogdan",
+        "gender": "male",
+        "fullYear": 1995,
+        "studentNumber": "21020959"
+    },
+    {
+        "index": 171,
+        "firstname": "Cobarzan",
+        "lastname": "Vlad",
+        "gender": "male",
+        "fullYear": 1994,
+        "studentNumber": "21020511"
+    },
+    {
+        "index": 172,
+        "firstname": "Coman",
+        "lastname": "Patricia",
+        "gender": "female",
+        "fullYear": 1994,
+        "studentNumber": "21021151"
+    },
+    {
+        "index": 173,
+        "firstname": "Dragan",
+        "lastname": "Paul",
+        "gender": "male",
+        "fullYear": 1994,
+        "studentNumber": "21021172"
+    },
+    {
+        "index": 174,
+        "firstname": "Gavri",
+        "lastname": "Catalin",
+        "gender": "male",
+        "fullYear": 1994,
+        "studentNumber": "21021183"
+    },
+    {
+        "index": 175,
+        "firstname": "Genis",
+        "lastname": "Radu",
+        "gender": "male",
+        "fullYear": 1994,
+        "studentNumber": "21021185"
+    },
+    {
+        "index": 176,
+        "firstname": "Gherghe",
+        "lastname": "Sergiu",
+        "gender": "male",
+        "fullYear": 1994,
+        "studentNumber": "21021186"
+    },
+    {
+        "index": 177,
+        "firstname": "Giosan",
+        "lastname": "Irina",
+        "gender": "female",
+        "fullYear": 1994,
+        "studentNumber": "21021189"
+    },
+    {
+        "index": 178,
+        "firstname": "Jurjut",
+        "lastname": "Anca",
+        "gender": "female",
+        "fullYear": 1994,
+        "studentNumber": "21021210"
+    },
+    {
+        "index": 179,
+        "firstname": "Kajnak",
+        "lastname": "M.",
+        "gender": "male",
+        "fullYear": 1994,
+        "studentNumber": "21021211"
+    },
+    {
+        "index": 180,
+        "firstname": "Kovacs",
+        "lastname": "Kristof",
+        "gender": "male",
+        "fullYear": 1994,
+        "studentNumber": "21021212"
+    },
+    {
+        "index": 181,
+        "firstname": "Kovacs",
+        "lastname": "Gyorgy",
+        "gender": "male",
+        "fullYear": 1994,
+        "studentNumber": "21021213"
+    },
+    {
+        "index": 182,
+        "firstname": "Lal",
+        "lastname": "Ioana",
+        "gender": "female",
+        "fullYear": 1994,
+        "studentNumber": "21021215"
+    },
+    {
+        "index": 183,
+        "firstname": "Lupu",
+        "lastname": "Nicolae",
+        "gender": "male",
+        "fullYear": 1994,
+        "studentNumber": "21021218"
+    },
+    {
+        "index": 184,
+        "firstname": "Miklos",
+        "lastname": "Csaba",
+        "gender": "male",
+        "fullYear": 1994,
+        "studentNumber": "21021226"
+    },
+    {
+        "index": 185,
+        "firstname": "Miklos",
+        "lastname": "David",
+        "gender": "male",
+        "fullYear": 1994,
+        "studentNumber": "21021227"
+    },
+    {
+        "index": 186,
+        "firstname": "Moldovan",
+        "lastname": "Vladut",
+        "gender": "male",
+        "fullYear": 1994,
+        "studentNumber": "21021230"
+    },
+    {
+        "index": 187,
+        "firstname": "Mosneagu",
+        "lastname": "Razvan",
+        "gender": "male",
+        "fullYear": 1994,
+        "studentNumber": "21021232"
+    },
+    {
+        "index": 188,
+        "firstname": "Muresanu",
+        "lastname": "Gabriel",
+        "gender": "male",
+        "fullYear": 1994,
+        "studentNumber": "21021234"
+    },
+    {
+        "index": 189,
+        "firstname": "Pop",
+        "lastname": "Alexandru",
+        "gender": "male",
+        "fullYear": 1994,
+        "studentNumber": "21021255"
+    },
+    {
+        "index": 190,
+        "firstname": "Popescu",
+        "lastname": "Mihaela",
+        "gender": "female",
+        "fullYear": 1994,
+        "studentNumber": "21021261"
+    },
+    {
+        "index": 191,
+        "firstname": "Stanese",
+        "lastname": "Mihai",
+        "gender": "male",
+        "fullYear": 1994,
+        "studentNumber": "21021285"
+    },
+    {
+        "index": 192,
+        "firstname": "Suciu",
+        "lastname": "Vlad",
+        "gender": "male",
+        "fullYear": 1994,
+        "studentNumber": "21021288"
+    },
+    {
+        "index": 193,
+        "firstname": "Todoran",
+        "lastname": "Marius",
+        "gender": "male",
+        "fullYear": 1994,
+        "studentNumber": "21021299"
+    },
+    {
+        "index": 194,
+        "firstname": "Varvara",
+        "lastname": "Ronny",
+        "gender": "male",
+        "fullYear": 1994,
+        "studentNumber": "21021315"
+    },
+    {
+        "index": 195,
+        "firstname": "Veres",
+        "lastname": "Koppany",
+        "gender": "male",
+        "fullYear": 1994,
+        "studentNumber": "21020919"
+    },
+    {
+        "index": 196,
+        "firstname": "Vincze",
+        "lastname": "C.",
+        "gender": "male",
+        "fullYear": 1994,
+        "studentNumber": "21021319"
+    },
+    {
+        "index": 197,
+        "firstname": "Voicu",
+        "lastname": "Horatiu",
+        "gender": "male",
+        "fullYear": 1994,
+        "studentNumber": "21021321"
+    },
+    {
+        "index": 198,
+        "firstname": "Ardelean",
+        "lastname": "Andrei",
+        "gender": "male",
+        "fullYear": 1994,
+        "studentNumber": "21021111"
+    },
+    {
+        "index": 199,
+        "firstname": "Barabasi",
+        "lastname": "Alex",
+        "gender": "male",
+        "fullYear": 1994,
+        "studentNumber": "21021117"
+    },
+    {
+        "index": 200,
+        "firstname": "Biro",
+        "lastname": "Norbert",
+        "gender": "male",
+        "fullYear": 1994,
+        "studentNumber": "21021125"
+    },
+    {
+        "index": 201,
+        "firstname": "Bonyhai",
+        "lastname": "Andrei",
+        "gender": "male",
+        "fullYear": 1994,
+        "studentNumber": "21021129"
+    },
+    {
+        "index": 202,
+        "firstname": "Calugar",
+        "lastname": "Andrei",
+        "gender": "male",
+        "fullYear": 1994,
+        "studentNumber": "21021137"
+    },
+    {
+        "index": 203,
+        "firstname": "Chende",
+        "lastname": "Oana",
+        "gender": "female",
+        "fullYear": 1994,
+        "studentNumber": "21021139"
+    },
+    {
+        "index": 204,
+        "firstname": "Chereches",
+        "lastname": "Stefan",
+        "gender": "male",
+        "fullYear": 1994,
+        "studentNumber": "21021140"
+    },
+    {
+        "index": 205,
+        "firstname": "Chioran",
+        "lastname": "Ionut",
+        "gender": "male",
+        "fullYear": 1994,
+        "studentNumber": "21021141"
+    },
+    {
+        "index": 206,
+        "firstname": "Cioban",
+        "lastname": "Cristian",
+        "gender": "male",
+        "fullYear": 1994,
+        "studentNumber": "21021144"
+    },
+    {
+        "index": 207,
+        "firstname": "Dan",
+        "lastname": "Claudiu",
+        "gender": "male",
+        "fullYear": 1994,
+        "studentNumber": "21021163"
+    },
+    {
+        "index": 208,
+        "firstname": "Dan",
+        "lastname": "Ilie",
+        "gender": "male",
+        "fullYear": 1994,
+        "studentNumber": "21021164"
+    },
+    {
+        "index": 209,
+        "firstname": "Frentiu",
+        "lastname": "Adrian",
+        "gender": "male",
+        "fullYear": 1994,
+        "studentNumber": "21021179"
+    },
+    {
+        "index": 210,
+        "firstname": "Ghiurutan",
+        "lastname": "Andrei",
+        "gender": "male",
+        "fullYear": 1994,
+        "studentNumber": "21021188"
+    },
+    {
+        "index": 211,
+        "firstname": "Gothard",
+        "lastname": "Szabolcs",
+        "gender": "male",
+        "fullYear": 1994,
+        "studentNumber": "21021193"
+    },
+    {
+        "index": 212,
+        "firstname": "Istok",
+        "lastname": "Robert",
+        "gender": "male",
+        "fullYear": 1994,
+        "studentNumber": "21021205"
+    },
+    {
+        "index": 213,
+        "firstname": "Maierean",
+        "lastname": "Florinel",
+        "gender": "male",
+        "fullYear": 1994,
+        "studentNumber": "21021220"
+    },
+    {
+        "index": 214,
+        "firstname": "Marcu",
+        "lastname": "Roxana",
+        "gender": "female",
+        "fullYear": 1994,
+        "studentNumber": "21021221"
+    },
+    {
+        "index": 215,
+        "firstname": "Monoki",
+        "lastname": "Timea",
+        "gender": "female",
+        "fullYear": 1994,
+        "studentNumber": "21021231"
+    },
+    {
+        "index": 216,
+        "firstname": "Nuta",
+        "lastname": "Alexandru",
+        "gender": "male",
+        "fullYear": 1994,
+        "studentNumber": "21021237"
+    },
+    {
+        "index": 217,
+        "firstname": "Otel",
+        "lastname": "Diana",
+        "gender": "female",
+        "fullYear": 1994,
+        "studentNumber": "21021244"
+    },
+    {
+        "index": 218,
+        "firstname": "Panici",
+        "lastname": "Andrei",
+        "gender": "male",
+        "fullYear": 1994,
+        "studentNumber": "21021247"
+    },
+    {
+        "index": 219,
+        "firstname": "Pop",
+        "lastname": "Mihai",
+        "gender": "male",
+        "fullYear": 1994,
+        "studentNumber": "21021257"
+    },
+    {
+        "index": 220,
+        "firstname": "Pop",
+        "lastname": "Irina",
+        "gender": "female",
+        "fullYear": 1994,
+        "studentNumber": "21021258"
+    },
+    {
+        "index": 221,
+        "firstname": "Rujoiu",
+        "lastname": "Laurentiu",
+        "gender": "male",
+        "fullYear": 1994,
+        "studentNumber": "21021265"
+    },
+    {
+        "index": 222,
+        "firstname": "Tamas",
+        "lastname": "Calin",
+        "gender": "male",
+        "fullYear": 1994,
+        "studentNumber": "21021292"
+    },
+    {
+        "index": 223,
+        "firstname": "Topan",
+        "lastname": "Teodora",
+        "gender": "female",
+        "fullYear": 1994,
+        "studentNumber": "21021301"
+    },
+    {
+        "index": 224,
+        "firstname": "Tufisi",
+        "lastname": "Razvan",
+        "gender": "male",
+        "fullYear": 1994,
+        "studentNumber": "21021303"
+    }
+]
