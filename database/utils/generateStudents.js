@@ -3,24 +3,48 @@ const fs = require('fs');
 
 const autEng = require('./studentsParsed/autEng.json');
 
-function generateGroup() {
-  let students = [];
+function generateStudents() {
+  const students = [];
 
-  autEng.map(student => {
+  autEng.map((student) => {
     const { firstname, lastname, gender, studentNumber, fullYear } = student;
-    students.push(createStudent(firstname, lastname, gender, studentNumber, fullYear))
+    return students.push(createStudent(firstname, lastname, gender, studentNumber, fullYear));
   });
-  // Object.keys(autEng).map((key) => {
-  //   let group = autEng[key].map((student) => {
-  //     const { firstname, lastname, gender, studentNumber, fullYear } = student;
-  //     autEngNew.push(createStudent(firstname, lastname, gender, studentNumber, key, fullYear))
-  //   });
-  //   return group;
-  // });
-  console.log(students);
   return students;
 }
 
+function generateGroup() {
+  const numofGroups = 8;
+  const groups = [];
+  let avarageBirthYear = 1997;
+  let startYear = 2016;
 
-let students = generateGroup();
-fs.writeFile('students.json', JSON.stringify(students, null, 4), (err) => {if(err) throw err});
+  for (let i = 0; i < numofGroups; i += 1) {
+    let groupNumber;
+    if (i % 2 === 0) {
+      groupNumber = 1;
+      if (i !== 0) {
+        startYear -= 1;
+        avarageBirthYear -= 1;
+      }
+    } else {
+      groupNumber = 2;
+    }
+
+    const group = {
+      id: `${30}${22}${startYear % 2000}${groupNumber}`,
+      startYear,
+      avarageBirthYear,
+    };
+
+    groups.push(group);
+  }
+
+  return groups;
+}
+
+const groups = generateGroup();
+console.log(groups);
+
+const students = generateStudents();
+fs.writeFile('students.json', JSON.stringify(students, null, 4), (err) => { if (err) throw err; });
