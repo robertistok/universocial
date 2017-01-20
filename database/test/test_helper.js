@@ -12,14 +12,12 @@ before((done) => {
 });
 
 const { students, grades, groups, teachers } = mongoose.connection.collections;
-let promises = [students, grades, groups].map(collection => {
-  return new Promise((resolve, reject) => {
-    collection.drop(err => {
-      if (err) return reject(err);
-      resolve();
-    });
+const promises = [students, grades, groups].map(collection => new Promise((resolve, reject) => {
+  collection.drop((err) => {
+    if (err) return reject(err);
+    return resolve();
   });
-});
+}));
 
 beforeEach((done) => {
   Promise.all(promises)
