@@ -1,4 +1,5 @@
 const mongoose = require('mongoose');
+
 const Schema = mongoose.Schema;
 
 // TODO: expectedFinish virtual implementation
@@ -9,9 +10,9 @@ const StudentSchema = new Schema({
   CNP: String,
   username: String,
   password: String,
-  email:    String,
+  email: String,
   firstname: String,
-  lastname:  String,
+  lastname: String,
   gender: String,
   phone: Number,
   dateOfBirth: Date,
@@ -22,20 +23,20 @@ const StudentSchema = new Schema({
   bankAccount: String,
   identificationNumber: {
     type: Number,
-    unique: true
+    unique: true,
   },
   groupID: {
     type: Schema.Types.ObjectId,
-    ref: 'group'
+    ref: 'group',
   },
   grades: [{
     type: Schema.Types.ObjectId,
-    ref: 'grade'
+    ref: 'grade',
   }],
   attendance: [{
     type: Schema.Types.ObjectId,
-    ref: 'attendance'
-  }]
+    ref: 'attendance',
+  }],
 });
 
 const Student = mongoose.model('student', StudentSchema);

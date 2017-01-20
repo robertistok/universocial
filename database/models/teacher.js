@@ -1,13 +1,14 @@
 const mongoose = require('mongoose');
+
 const Schema = mongoose.Schema;
 
 const TeacherSchema = new Schema({
   CNP: String,
   username: String,
   password: String,
-  email:    String,
+  email: String,
   firstname: String,
-  lastname:  String,
+  lastname: String,
   gender: String,
   phone: Number,
   dateOfBirth: Date,
@@ -16,24 +17,24 @@ const TeacherSchema = new Schema({
   classes: [{
     group: {
       type: Schema.Types.ObjectId,
-      ref: 'group'
+      ref: 'group',
     },
     subject: {
       type: Schema.Types.ObjectId,
-      ref: 'course'
+      ref: 'course',
     },
     type: {
       type: String,
       validate: {
-        validator: (type) => ['lecture, lab, project, seminar'].indexOf(type) > -1,
-        message: 'You can only assign a teacher the following type of teachings: lecture, lab, project or seminar'
-      }
+        validator: type => ['lecture, lab, project, seminar'].indexOf(type) > -1,
+        message: 'You can only assign a teacher the following type of teachings: lecture, lab, project or seminar',
+      },
     },
     attendance: {
       type: Schema.Types.ObjectId,
-      ref: 'attendance'
-    }
-  }]
+      ref: 'attendance',
+    },
+  }],
 });
 
 const Teacher = mongoose.model('teacher', TeacherSchema);

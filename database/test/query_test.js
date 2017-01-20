@@ -8,14 +8,17 @@ const Group = require('../models/group');
 const { createStudent, createTeacher } = require('../utils/createEntity');
 
 describe('Queries testing', () => {
-  let robi, dcs, autEngForth, szilard;
+  let robi,
+    dcs,
+    autEngForth,
+    szilard;
 
   before((done) => {
     robi = new Student(createStudent('Robert', 'Istok', 'male', '12345678', autEngForth, 2013, 1994));
     dcs = new Grade({});
     szilard = new Teacher({});
     autEngForth = new Group({
-      id: 30311
+      id: 30311,
     });
     autEngForth.students.push(robi);
     autEngForth.teachers.push(szilard);
@@ -31,26 +34,26 @@ describe('Queries testing', () => {
   it('finds a student', (done) => {
     Student.findOne({ firstname: 'Robert' })
       .then((user) => {
-        assert(user.firstname === 'Robert')
+        assert(user.firstname === 'Robert');
         done();
       });
   });
 
   it('finds and populates a group', (done) => {
-    Group.findOne({id: 30311 })
+    Group.findOne({ id: 30311 })
       .populate([{
         path: 'students',
-        populate: 'student'
+        populate: 'student',
       },
       {
         path: 'teachers',
-        populate: 'teacher'
+        populate: 'teacher',
       }])
       .then((group) => {
         console.log(group);
-        //assert(group.students[0].firstname === "Robert");
+        // assert(group.students[0].firstname === "Robert");
         done();
-      })
+      });
   });
 
   it('checks for correct student and grade association', (done) => {
