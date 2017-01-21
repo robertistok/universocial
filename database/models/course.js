@@ -23,10 +23,26 @@ const CourseSchema = new Schema({
     max: [2, 'There exist only semester 1 and 2, you entered a higher value'],
     required: true,
   },
-  lecturePerWeek: Number,
-  seminarsPerWeek: Number,
-  labsPerWeek: Number,
-  projectsPerWeek: Number,
+  lecturePerWeek: {
+    type: Number,
+    default: 2,
+    required: true,
+  },
+  labsPerWeek: {
+    type: Number,
+    default: 2,
+    required: true,
+  },
+  seminarsPerWeek: {
+    type: Number,
+    default: 0,
+    required: true,
+  },
+  projectsPerWeek: {
+    type: Number,
+    default: 0,
+    required: true,
+  },
   credits: Number,
   teachers: [{
     lecture: {
@@ -45,10 +61,6 @@ const CourseSchema = new Schema({
       type: Schema.Types.ObjectId,
       ref: 'teacher',
     },
-  }],
-  groups: [{
-    type: Schema.Types.ObjectId,
-    ref: 'group',
   }],
 });
 
