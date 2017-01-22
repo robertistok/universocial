@@ -1,5 +1,5 @@
 /* eslint no-console: ["error", { allow: ["warn", "error", "log"] }] */
-const counties = require('./newCounties.json');
+const counties = require('./data/newCounties.json');
 
 function generateCounty() {
   const countiesToChoose = ['Iași', 'Bacău', 'Suceava', 'București',

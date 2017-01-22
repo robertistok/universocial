@@ -25,7 +25,7 @@ const StudentSchema = new Schema({
     type: Number,
     unique: true,
   },
-  groupID: {
+  group: {
     type: Schema.Types.ObjectId,
     ref: 'group',
   },

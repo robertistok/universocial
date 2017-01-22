@@ -52,5 +52,7 @@ const studentsAut = {};
 studentsAut.ro = generateStudents(autRo);
 studentsAut.eng = generateStudents(autEng);
 
-fs.writeFile('data/groupsAut.json', JSON.stringify(groups, null, 4), (err) => { if (err) throw err; });
-fs.writeFile('data/studentsAut.json', JSON.stringify(studentsAut, null, 4), (err) => { if (err) throw err; });
+console.log(studentsAut.ro.length);
+
+// fs.writeFile('data/groupsAut.json', JSON.stringify(groups, null, 4), (err) => { if (err) throw err; });
+// fs.writeFile('data/studentsAut.json', JSON.stringify(studentsAut, null, 4), (err) => { if (err) throw err; });
