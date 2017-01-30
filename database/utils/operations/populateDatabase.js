@@ -15,7 +15,13 @@ if (process.NODE_ENV !== 'test') {
     .catch(err => console.log(err));
 }
 
-courses.map(courseProps => new Course(courseProps).save());
+const courseModels = [];
+
+courses.map(courseProps => {
+  const course = new Course(courseProps);
+  courseModels.push(course);
+  course.save();
+});
 
 function populateStudentsAndAssociateWithGroups(students, groups, studentsPerGroup) {
   let groupIndex = 0;
@@ -44,3 +50,13 @@ function populateStudentsAndAssociateWithGroups(students, groups, studentsPerGro
 
 // populateStudentsAndAssociateWithGroups(studentsAut.ro, groupsAut.ro, 27);
 // populateStudentsAndAssociateWithGroups(studentsAut.eng, groupsAut.eng, 28);
+
+Group.find({})
+  .then(groups => {
+    groups.map(group => {
+      let year = 2017 - group.startYear;
+      let filteredCourses = courseModels.filter(c => c.year === year);
+      group.courses = filteredCourses;
+      group.save();
+    })
+  })
