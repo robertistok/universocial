@@ -12,12 +12,19 @@ const Grade = require('../../models/grade');
 mongoose.Promise = global.Promise;
 if (process.NODE_ENV !== 'test') {
   mongoose
-    .connect('mongodb://localhost/universocial')
+    .connect('mongodb://localhost/universocial', {
+      server: {
+        socketOptions: {
+          socketTimeoutMS: 0,
+          connectTimeoutMS: 0
+        }
+      }
+})
     .then(() => console.log('DB connected'))
     .catch(err => console.log(err));
 }
 
-// const courseModels = [];
+const courseModels = [];
 
 function generateCourses() {
   courses.map(courseProps => {
@@ -64,27 +71,29 @@ function associateCoursesWithGroups() {
     });
 };
 
+let index = 0;
 function generateGradesFor(course) {
   Group.find({})
+    .skip(0)
+    .limit(16)
     .populate('students')
     .then(groups => {
       groups.map(group => {
-        const randomIndex = Math.round(Math.random() * grades.length) + 1;
         const year = 2017 - group.startYear;
-        if (course.year > year) return;
+        if (course.year > year || (course.semester === 2 && year === course.year)) return;
         group.students.map((student, i) => {
           const grade = new Grade({
-            grade: grades[randomIndex + i],
+            grade: grades[index++],
             course: course,
             student: student._id,
           });
           student.grades.push(grade);
-          grade.save();
-          student.save();
-        })
-      })
+          Promise.all([grade.save(), student.save()])
+            .then(() => { return });
+        });
+      });
     });
-}
+};
 
 function generateGrades() {
   Course.find({})
@@ -93,7 +102,14 @@ function generateGrades() {
     });
 };
 
-generateGrades();
-
+// First step in order to genrate the database
 // populateStudentsAndAssociateWithGroups(studentsAut.ro, groupsAut.ro, 27);
 // populateStudentsAndAssociateWithGroups(studentsAut.eng, groupsAut.eng, 28);
+
+
+// second step in generating the database
+// generateCourses();
+// associateCoursesWithGroups();
+
+// third step in generating the database; set the limit and skip in the functions
+generateGrades();
