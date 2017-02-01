@@ -1,5 +1,5 @@
 /* eslint no-console: ["error", { allow: ["warn", "error", "log"] }] */
-const counties = require('./data/newCounties.json');
+const counties = require('../data/newCounties.json');
 
 function generateCounty() {
   const countiesToChoose = ['Iași', 'Bacău', 'Suceava', 'București',
@@ -40,8 +40,8 @@ function generateCnp(gender, fullYear) {
 
   // const before2K = (fullYear.toString().slice(2, 4) == 19);
   const year = fullYear.toString().slice(2, 4);
-  let yearBefore = year - 1;
-  let yearAfter = year + 1;
+  let yearBefore = parseInt(year) - 1;
+  let yearAfter = parseInt(year) + 1;
 
   if (year === '00') {
     yearBefore = '99';
