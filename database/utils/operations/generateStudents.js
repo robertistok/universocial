@@ -2,8 +2,8 @@
 const { createStudent } = require('./createEntity');
 const fs = require('fs');
 
-const autEng = require('./studentsParsed/autEng.json');
-const autRo = require('./studentsParsed/autRo.json');
+const autEng = require('../studentsParsed/autEng.json');
+const autRo = require('../studentsParsed/autRo.json');
 
 function generateStudents(group) {
   const students = [];
@@ -54,5 +54,5 @@ studentsAut.eng = generateStudents(autEng);
 
 console.log(studentsAut.ro.length);
 
-// fs.writeFile('data/groupsAut.json', JSON.stringify(groups, null, 4), (err) => { if (err) throw err; });
-// fs.writeFile('data/studentsAut.json', JSON.stringify(studentsAut, null, 4), (err) => { if (err) throw err; });
+fs.writeFile('../data/groupsAut.json', JSON.stringify(groups, null, 4), (err) => { if (err) throw err; });
+fs.writeFile('../data/studentsAut.json', JSON.stringify(studentsAut, null, 4), (err) => { if (err) throw err; });
