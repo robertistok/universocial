@@ -3,7 +3,7 @@ function generatePhoneNumber() {
   for (let i = 0; i < 8; i += 1) {
     lastEight.push(Math.round(Math.random() * 9));
   }
-  return `07${lastEight.join('')}`;
+  return `407${lastEight.join('')}`;
 }
 
 function generateUnamePassEmail(firstname, lastname) {
