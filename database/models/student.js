@@ -41,11 +41,10 @@ const StudentSchema = new Schema({
 
 StudentSchema.virtual('gpa').
   get(function() {
-    let totalCredits = 0;
+    let totalCredits = 0; // this will help in calculating a gpa for a semester
     return this.grades
       .sort((a, b) => a.course.code - b.course.code)
       .reduce((gpa, item) => {
-        console.log(totalCredits);
         const year = `year${item.course.year}`;
         const semester = `semester${item.course.semester}`;
         const { credits } = item.course;
@@ -68,10 +67,11 @@ StudentSchema.virtual('gpa').
         if (grade < 5) {
           gpa[year][semester].examsLeft.push(code);
         } else {
-          gpa[year][semester].credits += credits;
-          gpa[year][semester].gpa += grade * credits;
+          gpa[year][semester].credits += credits; // total earned credits
+          gpa[year][semester].gpa += grade * credits; // weighted sum of the grades
         };
 
+        // when change between semesters, divide the gpa
         if (totalCredits === 30) {
           gpa[year][semester].gpa /= 30;
           totalCredits = 0;
