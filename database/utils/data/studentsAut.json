@@ -14621,23 +14621,6 @@
             "nationality": "Romanian",
             "bankAccount": "RO93BTRLRONCRT4115711038",
             "identificationNumber": "21021301"
-        },
-        {
-            "CNP": "1940128324872",
-            "username": "tufisirazvan61",
-            "password": "tufisirazvan61",
-            "email": "tufisirazvan61@gmail.com",
-            "firstname": "Tufisi",
-            "lastname": "Razvan",
-            "gender": "male",
-            "phone": "40788683505",
-            "dateOfBirth": "1994-01-28T00:00:00.000Z",
-            "countyOfOrigin": "Sibiu",
-            "militaryStatus": "Corporable",
-            "maritalStatus": "not married",
-            "nationality": "Romanian",
-            "bankAccount": "RO81BTRLRONCRT2159448054",
-            "identificationNumber": "21021303"
         }
     ]
 }
