@@ -26,4 +26,6 @@ Student.findOne({ identificationNumber: 21021658 })
       model: 'course',
     }
   })
-  .then((student) => console.log(student.gpa))
+  .then((student) => {
+    console.log(student.perf);
+  })

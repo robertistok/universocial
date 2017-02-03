@@ -12,7 +12,14 @@ const Grade = require('../../models/grade');
 mongoose.Promise = global.Promise;
 if (process.NODE_ENV !== 'test') {
   mongoose
-    .connect(process.env.MONGOLAB_URI)
+    .connect('mongodb://localhost/universocial', {
+      server: {
+        socketOptions: {
+          socketTimeoutMS: 0,
+          connectTimeoutMS: 0
+        }
+      }
+    })
     .then(() => console.log('DB connected'))
     .catch(err => console.log(err));
 }
@@ -142,8 +149,8 @@ function generateGradesFor(course) {
 
 
 // Second step in generating the database
-generateCourses();
-associateCoursesWithGroups();
+// generateCourses();
+// associateCoursesWithGroups();
 
 // Third step in generating the database; set the limit and skip in the functions
 // populateGrades();

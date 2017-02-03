@@ -39,46 +39,54 @@ const StudentSchema = new Schema({
   }],
 });
 
-StudentSchema.virtual('gpa').
+StudentSchema.virtual('perf').
   get(function() {
     let totalCredits = 0; // this will help in calculating a gpa for a semester
+    let semesters = 0;
     return this.grades
       .sort((a, b) => a.course.code - b.course.code)
-      .reduce((gpa, item) => {
-        const year = `year${item.course.year}`;
-        const semester = `semester${item.course.semester}`;
-        const { credits } = item.course;
-        const { code } = item.course;
+      .reduce((perf, item, index) => {
+        const { credits, code } = item.course
         const { grade } = item;
+        let yearIndex = item.course.year;
+        let semesterIndex = item.course.semester;
         totalCredits += credits;
 
-        if (!gpa[year]) {
-          gpa[year] = {};
+        if (!perf.year[yearIndex]) {
+          perf.year[yearIndex] = { semester: { } };
         }
 
-        if (!gpa[year][semester]) {
-          gpa[year][semester] = {
+        if (!perf.year[yearIndex].semester[semesterIndex]) {
+          semesters += 1;
+          perf.year[yearIndex].semester[semesterIndex] = {
             gpa: 0,
             credits: 0,
-            examsLeft: [],
-          };
+            examsLeft: [], // here I put the code of the exam, which the student did not pass
+          }
         }
 
         if (grade < 5) {
-          gpa[year][semester].examsLeft.push(code);
+          perf.year[yearIndex].semester[semesterIndex].examsLeft.push(code);
         } else {
-          gpa[year][semester].credits += credits; // total earned credits
-          gpa[year][semester].gpa += grade * credits; // weighted sum of the grades
+          perf.year[yearIndex].semester[semesterIndex].credits += credits; // total earned credits
+          perf.year[yearIndex].semester[semesterIndex].gpa += grade * credits; // weighted sum of the grades
         };
 
         // when change between semesters, divide the gpa
         if (totalCredits === 30) {
-          gpa[year][semester].gpa /= 30;
+          let semesterGpa = parseFloat((perf.year[yearIndex].semester[semesterIndex].gpa / 30).toFixed(2));
+          perf.year[yearIndex].semester[semesterIndex].gpa = semesterGpa;
+          perf.gpa += semesterGpa;
           totalCredits = 0;
         }
 
-        return gpa;
-      }, {});
+        // when arrived at the end of all semesters, get the total gpa
+        if (index === this.grades.length - 1) {
+          perf.gpa = (perf.gpa / semesters).toFixed(2);
+        }
+
+        return perf;
+      }, { year: {}, gpa: 0 });
   })
 
 const Student = mongoose.model('student', StudentSchema);
